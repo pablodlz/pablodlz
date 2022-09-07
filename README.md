@@ -26,12 +26,8 @@
   
 </span>
 
-![Contribution](https://activity-graph.herokuapp.com/graph?username=pablodlz&theme=gotham&hide_border=true&area=true)
+![Contribution](https://activity-graph.herokuapp.com/graph?username=pablodlz&theme=react-dark&hide_border=true&area=true)
 
-<div align="center">  
-<a href="https://www.instagram.com/pablodlz/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-</div> 
- 
 ### Main skills:
 ![Skill_1](https://img.shields.io/badge/-Skill_1-0D1117?style=for-the-badge&logo=node.js&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![Skill_2](https://img.shields.io/badge/-Skill_2-0D1117?style=for-the-badge&logo=react&labelColor=0D1117)&nbsp;
