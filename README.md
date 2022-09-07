@@ -9,8 +9,10 @@
   <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=pablodlz&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117" alt="Pablo de Souza Galerani github stats" /> 
   <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pablodlz&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" />
   
-  <img width="49%" height="195px" src="https://github-readme-streak-stats.herokuapp.com?user=pablodlz&hide_border=true&background=0D1117&stroke=0A3438&ring=00BFBF&fire=00BFBF&currStreakNum=C9D1D9&border=00BFBF&sideNums=C9D1D9&currStreakLabel=00BFBF&sideLabels=00BFBF&dates=C9D1D9" />
+  <img width="80%" height="195px" src="https://github-readme-streak-stats.herokuapp.com?user=pablodlz&hide_border=true&background=0D1117&stroke=0A3438&ring=00BFBF&fire=00BFBF&currStreakNum=C9D1D9&border=00BFBF&sideNums=C9D1D9&currStreakLabel=00BFBF&sideLabels=00BFBF&dates=C9D1D9" />
 </div>
+
+![Snake animation](https://github.com/pablodlz/pablodlz/blob/output/github-contribution-grid-snake.svg)
 
 ![Contribution](https://activity-graph.herokuapp.com/graph?username=pablodlz&theme=gotham&hide_border=true&area=true)
 
