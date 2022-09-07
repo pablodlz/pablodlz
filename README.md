@@ -119,6 +119,11 @@ Most of the open-source projects I create are the solutions to the problems I fa
   <img src="https://github-profile-trophy.vercel.app/?username=pablodlz&theme=dracula&row=2&no-bg=true&column=6&margin-w=15&margin-h=15" /> 
 </p>
 
+### Joke Card:
+<p align="left">
+<img src="https://readme-jokes.vercel.app/api?bgColor=%230d1117&textColor=%235bcdec&aColor=%235bcdec&borderColor=%235bcdec" alt="Jokes Card" />
+</p>
+
 ![](https://visitor-badge.glitch.me/badge?page_id=pablodlz.pablodlz)
 
 <div align="center">
@@ -138,10 +143,6 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
-
-<p align="center">
-<img src="https://readme-jokes.vercel.app/api?bgColor=%230d1117&textColor=%235bcdec&aColor=%235bcdec&borderColor=%235bcdec" alt="Jokes Card" />
-</p>
 
 <span align="center">
 
