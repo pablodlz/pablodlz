@@ -21,6 +21,11 @@
   <img src="https://github-profile-trophy.vercel.app/?username=pablodlz&theme=dracula&row=2&no-bg=true&column=6&margin-w=15&margin-h=15" /> 
 </p>
 
+<div align="center"> 
+  <<img width="100%" height="100%" src="https://quotes-github-readme.vercel.app/api?type=horizontal&bg_color=0D1117&theme=light" /> 
+</p>
+</div> 
+
 <div align="center">  
 <a href="https://www.instagram.com/pablodlz/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
 </div> 
