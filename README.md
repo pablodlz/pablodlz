@@ -1,18 +1,16 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=5bcdec&height=120&section=header"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=Olá,+Me+chamo+Pablo+de+Souza+Galerani;Tenho+19+anos;Sou+de+Jacarezinho,+PR;Estou+cursando+Segurança+da+Informação+na+Fatec;Seja+bem+vindo!+:%29)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=5bcdec&size=35&center=true&vCenter=true&width=1000&lines=Olá,+Me+chamo+Pablo+de+Souza+Galerani;Tenho+19+anos;Sou+de+Jacarezinho,+PR;Estou+cursando+Segurança+da+Informação+na+Fatec;Seja+bem+vindo!+:%29)](https://git.io/typing-svg)
 
 <div align="center">  
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=pablodlz&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117" alt="Pablo de Souza Galerani github stats" /> 
-  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pablodlz&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" />
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=pablodlz&show_icons=true&count_private=true&hide_border=true&title_color=5bcdec&icon_color=5bcdec&text_color=c9d1d9&bg_color=0d1117" alt="Pablo de Souza Galerani github stats" /> 
+  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pablodlz&layout=compact&hide_border=true&title_color=5bcdec&text_color=5bcdec&bg_color=0d1117" />
   
-  <img width="41%" height="195px" src="https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=pablodlz&hide_title=false&hide_border=true&langs_count=5&bg_color=0D1117&text_color=C9D1D9&title_color=00BFBF" />
-  <img width="49%" height="195px" src="https://github-readme-streak-stats.herokuapp.com?user=pablodlz&hide_border=true&background=0D1117&stroke=0A3438&ring=00BFBF&fire=00BFBF&currStreakNum=C9D1D9&border=00BFBF&sideNums=C9D1D9&currStreakLabel=00BFBF&sideLabels=00BFBF&dates=C9D1D9" />
+  <img width="41%" height="195px" src="https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=pablodlz&hide_title=false&hide_border=true&langs_count=5&bg_color=0D1117&text_color=C9D1D9&title_color=5bcdec" />
+  <img width="49%" height="195px" src="https://github-readme-streak-stats.herokuapp.com?user=pablodlz&hide_border=true&background=0D1117&stroke=0A3438&ring=5bcdec&fire=5bcdec&currStreakNum=C9D1D9&border=5bcdec&sideNums=C9D1D9&currStreakLabel=5bcdec&sideLabels=5bcdec&dates=C9D1D9" />
 </div>
 
 ![Contribution](https://activity-graph.herokuapp.com/graph?username=pablodlz&theme=react-dark&hide_border=true&area=true)
-
-![Snake animation](https://github.com/pablodlz/pablodlz/blob/output/github-contribution-grid-snake.svg)
 
 <img width=100% src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
@@ -27,6 +25,8 @@
   [![Spotify Badge](https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/212tewxcsp6hohie55z72kgiy)
   
 </span>
+
+![Snake animation](https://github.com/pablodlz/pablodlz/blob/output/github-contribution-grid-snake.svg)
 
 ### Main skills:
 ![Skill_1](https://img.shields.io/badge/-Skill_1-0D1117?style=for-the-badge&logo=node.js&labelColor=0D1117&textColor=0D1117)&nbsp;
@@ -74,7 +74,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 
 <p align="center">
-<img src="https://readme-jokes.vercel.app/api?bgColor=%230d1117&textColor=%2300bfbf&aColor=%2300bfbf&borderColor=%2300bfbf" alt="Jokes Card" />
+<img src="https://readme-jokes.vercel.app/api?bgColor=%230d1117&textColor=%235bcdec&aColor=%235bcdec&borderColor=%235bcdec" alt="Jokes Card" />
 </p>
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=5bcdec&height=120&section=footer"/>
