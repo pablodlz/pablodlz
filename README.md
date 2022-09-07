@@ -10,6 +10,8 @@
   <img width="49%" height="195px" src="https://github-readme-streak-stats.herokuapp.com?user=pablodlz&hide_border=true&background=0D1117&stroke=0A3438&ring=00BFBF&fire=00BFBF&currStreakNum=C9D1D9&border=00BFBF&sideNums=C9D1D9&currStreakLabel=00BFBF&sideLabels=00BFBF&dates=C9D1D9" />
 </div>
 
+![Contribution](https://activity-graph.herokuapp.com/graph?username=pablodlz&theme=react-dark&hide_border=true&area=true)
+
 ![Snake animation](https://github.com/pablodlz/pablodlz/blob/output/github-contribution-grid-snake.svg)
 
 <img width=100% src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
@@ -25,8 +27,6 @@
   [![Spotify Badge](https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/212tewxcsp6hohie55z72kgiy)
   
 </span>
-
-![Contribution](https://activity-graph.herokuapp.com/graph?username=pablodlz&theme=react-dark&hide_border=true&area=true)
 
 ### Main skills:
 ![Skill_1](https://img.shields.io/badge/-Skill_1-0D1117?style=for-the-badge&logo=node.js&labelColor=0D1117&textColor=0D1117)&nbsp;
