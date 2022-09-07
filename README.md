@@ -24,9 +24,9 @@
   [![Discord Badge](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/TheDuart#5542)
   [![Spotify Badge](https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/212tewxcsp6hohie55z72kgiy)
   
-</span>
-
 ![Snake animation](https://github.com/pablodlz/pablodlz/blob/output/github-contribution-grid-snake.svg)
+
+</span>
 
 ### Main skills:
 ![Skill_1](https://img.shields.io/badge/-Skill_1-0D1117?style=for-the-badge&logo=node.js&labelColor=0D1117&textColor=0D1117)&nbsp;
