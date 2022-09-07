@@ -1,7 +1,4 @@
-[main_color]: 00bfbf
-
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
-
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=Olá,+Me+chamo+Pablo+de+Souza+Galerani;Tenho+19+anos;Sou+de+Jacarezinho,+PR;Estou+cursando+Segurança+da+Informação+na+Fatec;Seja+bem+vindo%28a%29!+:%29)](https://git.io/typing-svg)
 
@@ -21,10 +18,9 @@
   <img src="https://github-profile-trophy.vercel.app/?username=pablodlz&theme=dracula&row=2&no-bg=true&column=6&margin-w=15&margin-h=15" /> 
 </p>
 
-<div align="center"> 
-  <<img width="100%" height="100%" src="https://quotes-github-readme.vercel.app/api?type=horizontal&bg_color=0D1117&theme=nord" />
+<p align="center">
+<img src="https://readme-jokes.vercel.app/api?bgColor=%230d1117&textColor=%2300bfbf&aColor=%2300bfbf&borderColor=%2300bfbf" alt="Jokes Card" />
 </p>
-</div> 
 
 <div align="center">  
 <a href="https://www.instagram.com/pablodlz/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
@@ -73,3 +69,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
+<img width=100% src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
