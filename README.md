@@ -23,7 +23,6 @@
   [![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/duartbreedt/)
   [![Discord Badge](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/TheDuart#5542)
   [![Spotify Badge](https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/212tewxcsp6hohie55z72kgiy)
-  
 ![Snake animation](https://github.com/pablodlz/pablodlz/blob/output/github-contribution-grid-snake.svg)
 
 </span>
