@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=Olá,+Me+chamo+Pablo+de+Souza+Galerani;Tenho+19+anos;Sou+de+Jacarezinho,+PR;Estou+cursando+Segurança+da+Informação+na+Fatec;Seja+bem+vindo%28a%29!+:%29)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=Olá,+Me+chamo+Pablo+de+Souza+Galerani;Tenho+19+anos;Sou+de+Jacarezinho,+PR;Estou+cursando+Segurança+da+Informação+na+Fatec;Seja+bem+vindo!+:%29)](https://git.io/typing-svg)
 
 <div align="center">  
   <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=pablodlz&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117" alt="Pablo de Souza Galerani github stats" /> 
@@ -14,15 +14,19 @@
 
 <img width=100% src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
+<span align="center">
+  
+  <a href="mailto:duartbreedt@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/duart-breedt)
+  [![Stackoverflow Badge](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/11472340/theduart)
+  [![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/TheRealDuart)
+  [![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/duartbreedt/)
+  [![Discord Badge](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/TheDuart#5542)
+  [![Spotify Badge](https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/212tewxcsp6hohie55z72kgiy)
+  
+</span>
+
 ![Contribution](https://activity-graph.herokuapp.com/graph?username=pablodlz&theme=gotham&hide_border=true&area=true)
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=pablodlz&theme=dracula&row=2&no-bg=true&column=6&margin-w=15&margin-h=15" /> 
-</p>
-
-<p align="center">
-<img src="https://readme-jokes.vercel.app/api?bgColor=%230d1117&textColor=%2300bfbf&aColor=%2300bfbf&borderColor=%2300bfbf" alt="Jokes Card" />
-</p>
 
 <div align="center">  
 <a href="https://www.instagram.com/pablodlz/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
@@ -51,6 +55,9 @@
 ### Studying in this moment:
 ![Python](https://img.shields.io/badge/-python-0D1117?style=for-the-badge&logo=python&logoColor=1572B6&labelColor=0D1117)&nbsp;
 
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=pablodlz&theme=dracula&row=2&no-bg=true&column=6&margin-w=15&margin-h=15" /> 
+</p>
 
 <div align="center">
 <br><p align="centre"><b>Contador de Visitantes</b></p>  
@@ -69,5 +76,9 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+<p align="center">
+<img src="https://readme-jokes.vercel.app/api?bgColor=%230d1117&textColor=%2300bfbf&aColor=%2300bfbf&borderColor=%2300bfbf" alt="Jokes Card" />
+</p>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
