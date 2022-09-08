@@ -28,10 +28,6 @@
 
 </span>
 
-<p align="center">
-  <img width=100% src="https://github-profile-trophy.vercel.app/?username=pablodlz&theme=dracula&row=2&no-bg=true&column=6&margin-w=15&margin-h=15" />
-</p>
-
 <details>
   <summary><b>👾&nbsp;&nbsp;About&nbsp;Me</b></summary>
   <br/>
@@ -184,6 +180,11 @@ blockchain, cryptocurrencies, cryptography, bitcoin, ethereum
 <details>
   <summary><b>:gear: &nbsp;More about me</b></summary>
   <br/>
+  
+### Trophies:
+  <p align="center">
+  <img width=100% src="https://github-profile-trophy.vercel.app/?username=pablodlz&theme=dracula&row=2&no-bg=true&column=6&margin-w=15&margin-h=15" />
+</p>
 
 ### Main skills:
 ![Skill_1](https://img.shields.io/badge/-Skill_1-0D1117?style=for-the-badge&logo=node.js&labelColor=0D1117&textColor=0D1117)&nbsp;
