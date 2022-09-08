@@ -16,10 +16,6 @@
 
 <img width=100% src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
-<p align="center">
-  <img width=100% src="https://github-profile-trophy.vercel.app/?username=pablodlz&theme=dracula&row=2&no-bg=true&column=6&margin-w=15&margin-h=15" />
-</p>
-
 ![Snake animation](https://github.com/pablodlz/pablodlz/blob/output/github-contribution-grid-snake.svg)
 
   <a href="mailto:duartbreedt@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
@@ -31,6 +27,10 @@
   [![Spotify Badge](https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/212tewxcsp6hohie55z72kgiy)
 
 </span>
+
+<p align="center">
+  <img width=100% src="https://github-profile-trophy.vercel.app/?username=pablodlz&theme=dracula&row=2&no-bg=true&column=6&margin-w=15&margin-h=15" />
+</p>
 
 <details>
   <summary><b>👾&nbsp;&nbsp;About&nbsp;Me</b></summary>
@@ -235,6 +235,8 @@ blockchain, cryptocurrencies, cryptography, bitcoin, ethereum
 ![Python](https://img.shields.io/badge/-python-0D1117?style=for-the-badge&logo=python&logoColor=1572B6&labelColor=0D1117)&nbsp;
 -->
 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=5bcdec&height=120&section=footer"/>
+
 <span align="center">
 
 ```
@@ -249,12 +251,6 @@ blockchain, cryptocurrencies, cryptography, bitcoin, ethereum
                  /___/                /___/       
 ```
 </span>
-
-<p align="center">
-  <img width=100% src="https://github-profile-trophy.vercel.app/?username=pablodlz&theme=dracula&row=2&no-bg=true&column=6&margin-w=15&margin-h=15" />
-</p>
-
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=5bcdec&height=120&section=footer"/>
 
 <i>README developed by Pablo.
 <img align="right" src="https://visitor-badge.glitch.me/badge?page_id=pablodlz.pablodlz"/>
