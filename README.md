@@ -17,6 +17,10 @@
 <img width=100% src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
 ![Snake animation](https://github.com/pablodlz/pablodlz/blob/output/github-contribution-grid-snake.svg)
+<p align="center">
+  <img width=100% src="https://github-profile-trophy.vercel.app/?username=pablodlz&theme=dracula&row=2&no-bg=true&column=6&margin-w=15&margin-h=15" />
+</p>
+
   <a href="mailto:duartbreedt@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/duart-breedt)
   [![Stackoverflow Badge](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/11472340/theduart)
@@ -245,7 +249,6 @@ blockchain, cryptocurrencies, cryptography, bitcoin, ethereum
 ```
 </span>
 
-### Trophies:
 <p align="center">
   <img width=100% src="https://github-profile-trophy.vercel.app/?username=pablodlz&theme=dracula&row=2&no-bg=true&column=6&margin-w=15&margin-h=15" />
 </p>
