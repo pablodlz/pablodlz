@@ -229,14 +229,8 @@ blockchain, cryptocurrencies, cryptography, bitcoin, ethereum
 ### Studying in this moment:
 ![Python](https://img.shields.io/badge/-python-0D1117?style=for-the-badge&logo=python&logoColor=1572B6&labelColor=0D1117)&nbsp;
 -->
-### Trophies:
-<p align="center">
-  <img width=100% src="https://github-profile-trophy.vercel.app/?username=pablodlz&theme=dracula&row=2&no-bg=true&column=6&margin-w=15&margin-h=15" />
-</p>
 
 <span align="center">
-
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=5bcdec&height=120&section=footer"/>
 
 ```
   ____                  ____                      
@@ -250,6 +244,13 @@ blockchain, cryptocurrencies, cryptography, bitcoin, ethereum
                  /___/                /___/       
 ```
 </span>
+
+### Trophies:
+<p align="center">
+  <img width=100% src="https://github-profile-trophy.vercel.app/?username=pablodlz&theme=dracula&row=2&no-bg=true&column=6&margin-w=15&margin-h=15" />
+</p>
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=5bcdec&height=120&section=footer"/>
 
 <p>README developed by Pablo.
 <img align="right" src="https://visitor-badge.glitch.me/badge?page_id=pablodlz.pablodlz"/>
