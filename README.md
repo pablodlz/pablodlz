@@ -252,6 +252,5 @@ blockchain, cryptocurrencies, cryptography, bitcoin, ethereum
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=5bcdec&height=120&section=footer"/>
 
-<p>README developed by Pablo.
+<i>README developed by Pablo.
 <img align="right" src="https://visitor-badge.glitch.me/badge?page_id=pablodlz.pablodlz"/>
-</p>
