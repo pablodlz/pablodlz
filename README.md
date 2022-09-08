@@ -205,11 +205,12 @@ blockchain, cryptocurrencies, cryptography, bitcoin, ethereum
     </p>
 </details>
 
+<!-- 
 ### Main skills:
 ![Skill_1](https://img.shields.io/badge/-Skill_1-0D1117?style=for-the-badge&logo=node.js&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![Skill_2](https://img.shields.io/badge/-Skill_2-0D1117?style=for-the-badge&logo=react&labelColor=0D1117)&nbsp;
 ![Skill_3](https://img.shields.io/badge/-Skill_3-0D1117?style=for-the-badge&logo=javascript&labelColor=0D1117&textColor=0D1117)&nbsp;
- 
+
 ### Tools:
 ![Visual Studio](https://img.shields.io/badge/-Visual%20Studio-0D1117?style=for-the-badge&logo=visual-studio&logoColor=C8A2C8&labelColor=0D1117)&nbsp;
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-0D1117?style=for-the-badge&logo=visual-studio-code&logoColor=0D1117&labelColor=0D1117)&nbsp;
@@ -227,10 +228,10 @@ blockchain, cryptocurrencies, cryptography, bitcoin, ethereum
   
 ### Studying in this moment:
 ![Python](https://img.shields.io/badge/-python-0D1117?style=for-the-badge&logo=python&logoColor=1572B6&labelColor=0D1117)&nbsp;
-
+-->
 ### Trophies:
-<p align="left">
-  <img src="https://github-profile-trophy.vercel.app/?username=pablodlz&theme=dracula&row=2&no-bg=true&column=6&margin-w=15&margin-h=15" />
+<p align="center">
+  <img width=100% src="https://github-profile-trophy.vercel.app/?username=pablodlz&theme=dracula&row=2&no-bg=true&column=6&margin-w=15&margin-h=15" />
 </p>
 
 <span align="center">
