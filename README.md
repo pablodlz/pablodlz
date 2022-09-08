@@ -208,6 +208,12 @@ blockchain, cryptocurrencies, cryptography, bitcoin, ethereum
 ### Studying in this moment:
 ![Python](https://img.shields.io/badge/-python-0D1117?style=for-the-badge&logo=python&logoColor=1572B6&labelColor=0D1117)&nbsp;
 
+</details>
+
+<details>
+  <summary><b>✨&nbsp;Special</b></summary>
+  <br/>
+
 <pre>
 
   ___   _      ___   _      ___   _      ___   _      ___   _
