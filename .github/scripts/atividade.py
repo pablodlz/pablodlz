@@ -156,18 +156,10 @@ def main():
     with open("README.md", encoding="utf-8") as f:
         readme = f.read()
 
-    # banner SSH: Last login sempre fresco (fuso de Brasília)
+    # NOTA: as linhas "Last login:" e "uptime:" foram removidas do README
+    # (o dono deixou o bloco "Sobre mim" estático) → o bot NÃO as mexe mais.
     now = datetime.now(TZ)
-    login = (
-        f"Last login: {DIAS[now.weekday()]}, {now.day:02d} {MESES[now.month - 1]} "
-        f"{now.year} {now:%H:%M} -03 from 10.10.14.7"
-    )
-    readme = re.sub(r"^Last login: .*$", login, readme, count=1, flags=re.M)
-
-    # uptime: dias operando no SOC (estilo do comando `uptime` do portfólio)
-    dias = (now - SOC_START).days
-    uptime = f"uptime: {dias} dias operando no SOC @ Clavis · rumo ao OSCP"
-    readme = re.sub(r"^uptime: .*$", uptime, readme, count=1, flags=re.M)
+    dias = (now - SOC_START).days  # ainda usado no neofetch, se o marcador existir
 
     # atividade recente (log de terminal)
     lines = []
@@ -203,7 +195,7 @@ def main():
 
     with open("README.md", "w", encoding="utf-8", newline="\n") as f:
         f.write(readme)
-    print(f"ok: {login} · {len(lines)} evento(s) · {n_langs} linguagem(ns)")
+    print(f"ok: {len(lines)} evento(s) · {n_langs} linguagem(ns)")
 
 
 if __name__ == "__main__":

@@ -1,10 +1,20 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0DD1CA&height=120&section=header" alt="" />
 
-<div align="center">
-
-# Pablo Galerani
-
+<table align="center">
+<tr>
+<td valign="middle">
+<h1>Pablo&nbsp;Galerani</h1>
 <code>Security&nbsp;Operations</code> · <code>Offensive&nbsp;Security</code> · <code>AppSec</code>
+</td>
+<td valign="middle" align="center">
+<img width="140" src="assets/b1t.svg" alt="b1t — o mascote cyber" />
+<br/><br/>
+<a href="https://pablodlz.github.io/portfolio/"><img src="https://img.shields.io/badge/%E2%96%B6%20Ver%20Portf%C3%B3lio-0DD1CA?style=for-the-badge&labelColor=0DD1CA" alt="Ver Portfólio" /></a>
+</td>
+</tr>
+</table>
+
+<div align="center">
 
 <br/>
 
@@ -24,26 +34,29 @@
 
 <br/>
 
-```bash
-Last login: Sex, 10 jul 2026 17:17 -03 from 10.10.14.7
-uptime: 282 dias operando no SOC @ Clavis · rumo ao OSCP
+### Sobre mim
 
-$ whoami
+```bash
+uptime: Operando no SOC @ Clavis
+
+┌─(𝗿𝗼𝗼𝘁㉿𝗸𝗮𝗹𝗶)-[~]
+└$ whoami
 pablodlz — SOC Analyst @ Clavis Segurança da Informação
 
-$ cat about.txt
-Blue team de dia, labs ofensivos à noite —
-entender o ataque é a melhor forma de defender.
+┌─(𝗿𝗼𝗼𝘁㉿𝗸𝗮𝗹𝗶)-[~]
+└$ cat about.txt
+· Blue team de dia, labs ofensivos à noite
+· Entender o ataque é a melhor forma de defender.
 
-  formação   Tecnólogo em Segurança da Informação · Fatec
+  Formação   Tecnólogo em Segurança da Informação · Fatec
              Pós em Cibersegurança Ofensiva · Acadi-TI
-  local      Jacarezinho, PR — Brasil
-  foco       SOC · SIEM · Pentest · AppSec / DevSecOps
+  Local      Paraná, Brasil
+  Foco       SOC · SIEM · Pentest · AppSec / DevSecOps
 ```
 
 <br/>
 
-### `> map --areas`
+### Roadmap
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#0DD1CA','primaryBorderColor':'#0DD1CA','lineColor':'#0DD1CA','secondaryColor':'#0d1117','tertiaryColor':'#0d1117','fontFamily':'monospace'}}}%%
@@ -83,7 +96,7 @@ flowchart LR
 <sub>**AppSec / DevSecOps**</sub><br/>
 ![OWASP](https://img.shields.io/badge/OWASP-0D1117?style=flat-square&logo=owasp&logoColor=0DD1CA)
 ![Snyk](https://img.shields.io/badge/Snyk-0D1117?style=flat-square&logo=snyk&logoColor=0DD1CA)
-![SonarQube](https://img.shields.io/badge/SonarQube-0D1117?style=flat-square&logo=sonarqube&logoColor=0DD1CA)
+![SonarQube](https://img.shields.io/badge/SonarQube-0D1117?style=flat-square&logo=sonarqubeserver&logoColor=0DD1CA)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0D1117?style=flat-square&logo=githubactions&logoColor=0DD1CA)
 ![Jenkins](https://img.shields.io/badge/Jenkins-0D1117?style=flat-square&logo=jenkins&logoColor=0DD1CA)
 ![Docker](https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=0DD1CA)
@@ -98,85 +111,29 @@ flowchart LR
 
 <br/>
 
-### Certs
+### Certificações
 
-<code>CEH v13 (AI)</code> · <code>CNSE</code> · <code>CSAE</code> · <code>CPTE</code> · <code>CRTA</code> &nbsp;—&nbsp; **50+** &nbsp;·&nbsp; próximos: <code>Security+</code> <code>eJPT</code> <code>OSCP</code>
+<code>CNSE</code> · <code>CSAE</code> · <code>CPTE</code> - Concluídas.
 
-<br/>
+<code>CEH v13 (AI)</code> · <code>CRTA</code> - Em andamento.
 
-### `> cat foco.md`
-
-```text
-▸ aprofundando red team / pentest — rumo ao CRTA e ao OSCP
-▸ CEH v13 (AI) em andamento
-▸ publicando artigo: ML aplicado à detecção de ransomware
-▸ rotina de CTFs & labs — Hack The Box · TryHackMe · LetsDefend
-```
+<code>Security+</code> <code>eJPT</code> <code>OSCP</code> - Próximos alvos.
 
 <br/>
 
-### `> ls ~/projetos`
+### Projetos
 
-| | |
-|---|---|
+|                                                        |                                                                                                                                                                               |
+| ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [**portfolio**](https://github.com/pablodlz/portfolio) | Site interativo com terminal Kali funcional (~90 comandos), pet cyber **b1t** e CSP estrita — Astro · TypeScript. **[demo ao vivo ↗](https://pablodlz.github.io/portfolio/)** |
-| [**pablodlz**](https://github.com/pablodlz/pablodlz) | Este perfil — escrito *spec-driven* ([spec](specs/profile-readme.md)) e mantido vivo por GitHub Actions. |
+| [**pablodlz**](https://github.com/pablodlz/pablodlz)   | Este perfil — escrito _spec-driven_ ([spec](specs/profile-readme.md)) e mantido vivo por GitHub Actions.                                                                      |
 
 <br/>
-
-### `> tail -f atividade.log`
-
-<!--ATIVIDADE:START-->
-```text
-[10/07 17:17] push     pablodlz     "README v6: conserta stats/langs + cobrinha; m…"
-[10/07 17:03] push     pablodlz     → main
-[10/07 16:39] push     pablodlz     → main
-[10/07 16:27] push     pablodlz     "chore: ignora __pycache__"
-[10/07 16:23] push     pablodlz     "README v4: secoes dinamicas (Actions) + proje…"
-[10/07 15:56] push     pablodlz     "README v3: reformulacao minimalista, tema tea…"
-```
-<!--ATIVIDADE:END-->
-<sub>🤖 atualizado automaticamente a cada 8h via GitHub Actions</sub>
-
-<br/>
-
-### `> neofetch`
-
-<!--NEOFETCH:START-->
-```text
-             pablodlz@github
-             ─────────────────────────────────
-  ▄▄▄▄▄▄▄     role.....: SOC Analyst @ Clavis
-  █ ▄ ▄ █     uptime...: 282d no SOC · rumo ao OSCP
-  █  ▀  █     repos....: 3 públicos · seguidores 1
-  ▀▄▄▄▄▄▀     stars....: 2
-   █   █      top langs: Astro · TypeScript · CSS
-  ▀▀   ▀▀     certs....: 50+ · CEH v13 (AI)
-              stack....: Kali · Splunk · Burp · Python
-```
-<!--NEOFETCH:END-->
-
-<br/>
-
-### `> languages --top`
-
-<!--LANGS:START-->
-```text
-Astro        ████████████░░░░░░░░░░  52.6%
-TypeScript   ███████░░░░░░░░░░░░░░░  32.7%
-CSS          ██░░░░░░░░░░░░░░░░░░░░   8.3%
-HTML         █░░░░░░░░░░░░░░░░░░░░░   4.9%
-JavaScript   ░░░░░░░░░░░░░░░░░░░░░░   1.5%
-```
-<!--LANGS:END-->
-
-<sub>📊 stats e linguagens computados por mim mesmo via GitHub Actions — sem depender de serviços que caem.</sub>
-
-<br/>
-
-### `> uptime` · streak & coding time
 
 <div align="center">
+
+### Streak & Coding time
+
 
 <img width="460" src="https://streak-stats.demolab.com?user=pablodlz&hide_border=true&background=0D1117&stroke=0DD1CA&ring=0DD1CA&fire=0DD1CA&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=0DD1CA&sideLabels=8b949e&dates=8b949e" alt="Streak atual de contribuições" />
 
@@ -184,35 +141,10 @@ JavaScript   ░░░░░░░░░░░░░░░░░░░░░░ 
 
 </div>
 
-<br/>
-
-### `> git log --graph`  ·  contribuições
-
-<div align="center">
+### Contribuições
 
 <img width="100%" src="https://raw.githubusercontent.com/pablodlz/pablodlz/output/github-contribution-grid-snake.svg" alt="Cobrinha de contribuições" />
 
-</div>
-
----
-
-<div align="center">
-
-<img width="150" src="assets/b1t.svg" alt="b1t — o mascote cyber" />
-
-<br/>
-
-[![Open Source](https://img.shields.io/badge/Open_Source-%E2%99%A5-0DD1CA?style=flat-square&labelColor=0D1117)](https://github.com/pablodlz?tab=repositories)
-&nbsp;<sub>o [portfólio](https://github.com/pablodlz/portfolio) e este perfil são **open source** — código aberto, zero segredos.</sub>
-
-<br/>
-
-```bash
-$ ./pablodlz.sh          # o tour completo tá no portfólio ↴
-```
-
-**[pablodlz.github.io/portfolio](https://pablodlz.github.io/portfolio/)**
-
-</div>
-
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0DD1CA&height=120&section=footer" alt="" />
+
+</div>
