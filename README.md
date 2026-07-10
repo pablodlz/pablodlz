@@ -23,7 +23,8 @@
 <br/>
 
 ```bash
-Last login: Sex, 10 jul 2026 16:39 -03 from 10.10.14.7
+Last login: Sex, 10 jul 2026 16:55 -03 from 10.10.14.7
+uptime: 282 dias operando no SOC @ Clavis · rumo ao OSCP
 
 $ whoami
 pablodlz — SOC Analyst @ Clavis Segurança da Informação
@@ -82,11 +83,23 @@ entender o ataque é a melhor forma de defender.
 
 <br/>
 
+### `> cat foco.md`
+
+```text
+▸ aprofundando red team / pentest — rumo ao CRTA e ao OSCP
+▸ CEH v13 (AI) em andamento
+▸ publicando artigo: ML aplicado à detecção de ransomware
+▸ rotina de CTFs & labs — Hack The Box · TryHackMe · LetsDefend
+```
+
+<br/>
+
 ### `> ls ~/projetos`
 
 | | |
 |---|---|
 | [**portfolio**](https://github.com/pablodlz/portfolio) | Site interativo com terminal Kali funcional (~90 comandos), pet cyber **b1t** e CSP estrita — Astro · TypeScript. **[demo ao vivo ↗](https://pablodlz.github.io/portfolio/)** |
+| [**writeups**](https://github.com/pablodlz/writeups) | Notas de CTFs, labs e máquinas (HTB · TryHackMe · LetsDefend) — metodologia consistente, do recon ao report. |
 | [**pablodlz**](https://github.com/pablodlz/pablodlz) | Este perfil — escrito *spec-driven* ([spec](specs/profile-readme.md)) e mantido vivo por GitHub Actions. |
 
 <br/>
@@ -95,7 +108,7 @@ entender o ataque é a melhor forma de defender.
 
 <!--ATIVIDADE:START-->
 ```text
-[10/07 16:39] push     pablodlz     "Merge branch 'main' of https://github.com/pab…"
+[10/07 16:39] push     pablodlz     → main
 [10/07 16:27] push     pablodlz     "chore: ignora __pycache__"
 [10/07 16:23] push     pablodlz     "README v4: secoes dinamicas (Actions) + proje…"
 [10/07 15:56] push     pablodlz     "README v3: reformulacao minimalista, tema tea…"

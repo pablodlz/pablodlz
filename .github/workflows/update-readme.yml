@@ -4,8 +4,6 @@ on:
   schedule:
     - cron: "23 */8 * * *" # a cada 8h
   workflow_dispatch:
-  push:
-    branches: [main]
 
 permissions:
   contents: write

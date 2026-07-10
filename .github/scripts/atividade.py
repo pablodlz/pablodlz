@@ -15,6 +15,7 @@ USER = "pablodlz"
 # Brasília é UTC-3 fixo (sem horário de verão desde 2019) → offset fixo
 # dispensa o banco IANA (tzdata), que não existe no Python do Windows
 TZ = timezone(timedelta(hours=-3))
+SOC_START = datetime(2025, 10, 1, tzinfo=TZ)  # início no SOC da Clavis
 DIAS = ["Seg", "Ter", "Qua", "Qui", "Sex", "Sab", "Dom"]
 MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
 MAX_LINHAS = 6
@@ -57,7 +58,10 @@ def line_for(ev):
     kind = ev["type"]
     if kind == "PushEvent":
         branch = (p.get("ref") or "").removeprefix("refs/heads/")
-        msg = short(commit_msg(ev["repo"]["name"], p.get("head", "")))
+        raw = commit_msg(ev["repo"]["name"], p.get("head", ""))
+        if raw.startswith(("Merge branch", "Merge pull request", "Merge remote")):
+            raw = ""  # ruído de merge → mostra só o push pro branch
+        msg = short(raw)
         if msg:
             return f'[{stamp}] push     {repo:<12} "{msg}"'
         return f"[{stamp}] push     {repo:<12} → {branch or 'main'}"
@@ -94,6 +98,11 @@ def main():
         f"{now.year} {now:%H:%M} -03 from 10.10.14.7"
     )
     readme = re.sub(r"^Last login: .*$", login, readme, count=1, flags=re.M)
+
+    # uptime: dias operando no SOC (estilo do comando `uptime` do portfólio)
+    dias = (now - SOC_START).days
+    uptime = f"uptime: {dias} dias operando no SOC @ Clavis · rumo ao OSCP"
+    readme = re.sub(r"^uptime: .*$", uptime, readme, count=1, flags=re.M)
 
     # atividade recente (log de terminal)
     lines = []
