@@ -1,23 +1,26 @@
-name: Generate Datas
+name: Cobrinha de contribuições
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  schedule:
+    - cron: "17 3 * * *" # 1x por dia
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
-    name: Jobs to update datas
     runs-on: ubuntu-latest
     steps:
-      # Snake Animation
-      - uses: Platane/snk@master
-        id: snake-gif
+      - name: Gera a cobrinha (teal)
+        uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: pablodlz
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#0DD1CA&color_dots=#0d1117,#0a5f5a,#0DD1CA,#5ff0ea,#aefaf6
 
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+      - name: Publica no branch output
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist

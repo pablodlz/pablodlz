@@ -19,6 +19,15 @@ SOC_START = datetime(2025, 10, 1, tzinfo=TZ)  # início no SOC da Clavis
 DIAS = ["Seg", "Ter", "Qua", "Qui", "Sex", "Sab", "Dom"]
 MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
 MAX_LINHAS = 6
+# robô b1t em ASCII (blocos full-width → alinham em qualquer mono)
+LOGO = [
+    "  ▄▄▄▄▄▄▄  ",
+    "  █ ▄ ▄ █  ",
+    "  █  ▀  █  ",
+    "  ▀▄▄▄▄▄▀  ",
+    "   █   █   ",
+    "  ▀▀   ▀▀  ",
+]
 
 
 def _get(url):
@@ -87,6 +96,60 @@ def line_for(ev):
     return None
 
 
+def replace_block(readme, name, content):
+    return re.sub(
+        rf"<!--{name}:START-->.*?<!--{name}:END-->",
+        f"<!--{name}:START-->\n{content}\n<!--{name}:END-->",
+        readme,
+        flags=re.S,
+    )
+
+
+def aggregate_langs(repos):
+    agg = {}
+    for r in repos:
+        if r.get("fork"):
+            continue
+        try:
+            for lang, b in _get(r["languages_url"]).items():
+                agg[lang] = agg.get(lang, 0) + b
+        except Exception:
+            pass
+    return agg
+
+
+def render_langs_bar(langs, n=6, width=22):
+    total = sum(langs.values()) or 1
+    top = sorted(langs.items(), key=lambda x: -x[1])[:n]
+    rows = []
+    for name, b in top:
+        pct = b / total * 100
+        fill = round(pct / 100 * width)
+        bar = "█" * fill + "░" * (width - fill)
+        rows.append(f"{name:<13}{bar} {pct:5.1f}%")
+    return "\n".join(rows)
+
+
+def render_neofetch(dias, n_repos, followers, stars, top_langs):
+    info = [
+        "pablodlz@github",
+        "─────────────────────────────────",
+        " role.....: SOC Analyst @ Clavis",
+        f" uptime...: {dias}d no SOC · rumo ao OSCP",
+        f" repos....: {n_repos} públicos · seguidores {followers}",
+        f" stars....: {stars}",
+        " top langs: " + (" · ".join(top_langs[:3]) if top_langs else "—"),
+        " certs....: 50+ · CEH v13 (AI)",
+        " stack....: Kali · Splunk · Burp · Python",
+    ]
+    pad = " " * len(LOGO[0])
+    rows = []
+    for i, txt in enumerate(info):
+        art = LOGO[i - 2] if 2 <= i < 2 + len(LOGO) else pad
+        rows.append(f"{art}  {txt}")
+    return "\n".join(rows)
+
+
 def main():
     with open("README.md", encoding="utf-8") as f:
         readme = f.read()
@@ -117,16 +180,28 @@ def main():
         print(f"aviso: eventos indisponíveis ({e})")
     if lines:
         block = "```text\n" + "\n".join(lines) + "\n```"
-        readme = re.sub(
-            r"<!--ATIVIDADE:START-->.*?<!--ATIVIDADE:END-->",
-            "<!--ATIVIDADE:START-->\n" + block + "\n<!--ATIVIDADE:END-->",
-            readme,
-            flags=re.S,
-        )
+        readme = replace_block(readme, "ATIVIDADE", block)
+
+    # stats + linguagens auto-computados (substituem o serviço externo que cai)
+    n_langs = 0
+    try:
+        user = _get(f"https://api.github.com/users/{USER}")
+        repos = _get(f"https://api.github.com/users/{USER}/repos?per_page=100&type=owner&sort=pushed")
+        langs = aggregate_langs(repos)
+        n_langs = len(langs)
+        stars = sum(r.get("stargazers_count", 0) for r in repos if not r.get("fork"))
+        n_repos = user.get("public_repos", sum(1 for r in repos if not r.get("fork")))
+        followers = user.get("followers", 0)
+        top = [k for k, _ in sorted(langs.items(), key=lambda x: -x[1])[:3]]
+        readme = replace_block(readme, "NEOFETCH", "```text\n" + render_neofetch(dias, n_repos, followers, stars, top) + "\n```")
+        if langs:
+            readme = replace_block(readme, "LANGS", "```text\n" + render_langs_bar(langs) + "\n```")
+    except Exception as e:  # API indisponível → mantém blocos anteriores
+        print(f"aviso: stats indisponíveis ({e})")
 
     with open("README.md", "w", encoding="utf-8", newline="\n") as f:
         f.write(readme)
-    print(f"ok: {login} · {len(lines)} evento(s)")
+    print(f"ok: {login} · {len(lines)} evento(s) · {n_langs} linguagem(ns)")
 
 
 if __name__ == "__main__":

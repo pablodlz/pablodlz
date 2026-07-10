@@ -51,9 +51,18 @@ onde encontrá-lo, e puxar pro portfólio.
    **writeups** (repo de CTFs/labs) e este perfil.
 7. **`> tail -f atividade.log`** — atividade recente REAL em formato de log de
    terminal, gerada automaticamente (ver §4.1).
-8. **`> ./stats`** — 2 cards do github-readme-stats no tema teal (stats + langs).
-   Sem troféus/streak/snake (minimalismo).
-9. **Rodapé** (centro) — 1 linha de terminal (`./pablodlz.sh`) + CTA pro portfólio.
+7.5. **`> map --areas`** — diagrama **mermaid** (flowchart LR, tema teal via
+   `%%{init}%%`) das 4 áreas + o loop blue↔red ("entender o ataque" / "defender
+   melhor"). Nativo do GitHub, sem serviço externo. (ideia: pr2tik1)
+8. **`> neofetch`** — card estilo neofetch (b1t ASCII + info) com stats REAIS
+   (repos/seguidores/estrelas/top langs) — AUTO-COMPUTADO pelo bot (ver §4.1).
+9. **`> languages --top`** — barra ASCII teal das linguagens, % por bytes,
+   AUTO-COMPUTADA pelo bot. **Substitui** o github-readme-stats, que vivia
+   caindo (503 DEPLOYMENT_PAUSED) — o motivo real de "stats não funciona".
+10. **`> git log --graph`** — cobrinha (snake) TEAL, gerada pelo `snake.yml`
+    (branch `output`). Reposta a pedido; workflow modernizado (Platane/snk@v3,
+    cores teal, cron 1×/dia — o cron antigo `* */12` rodava 60×/hora).
+11. **Rodapé** (centro) — 1 linha de terminal (`./pablodlz.sh`) + CTA pro portfólio.
 
 **Repositório companheiro** (`pablodlz/writeups`): notas de CTFs/labs/máquinas
 (HTB/THM/LetsDefend) com metodologia + template. É o sinal nº 1 que o mercado
@@ -79,6 +88,11 @@ commits do bot), que roda `.github/scripts/atividade.py` (stdlib, sem deps):
   `/repos/{repo}/commits/{sha}` (fallback: linha sem mensagem). Falha de API
   não derruba o README (mantém o bloco anterior).
 - O commit do bot usa `GITHUB_TOKEN` → não re-dispara o workflow (sem loop).
+- **`> neofetch` e `> languages`** (blocos `<!--NEOFETCH-->` / `<!--LANGS-->`):
+  o bot busca `/users/{u}` (repos/seguidores) + `/users/{u}/repos` e soma o
+  `/languages` de cada repo (bytes) → barra ASCII teal + card neofetch. Isso
+  troca o github-readme-stats externo (503 recorrente) por dado próprio e
+  confiável. Falha de API → mantém o bloco anterior.
 
 ## 5. Dados reais (de `linkedin.json`)
 

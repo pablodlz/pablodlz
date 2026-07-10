@@ -23,7 +23,7 @@
 <br/>
 
 ```bash
-Last login: Sex, 10 jul 2026 16:55 -03 from 10.10.14.7
+Last login: Sex, 10 jul 2026 17:15 -03 from 10.10.14.7
 uptime: 282 dias operando no SOC @ Clavis · rumo ao OSCP
 
 $ whoami
@@ -37,6 +37,25 @@ entender o ataque é a melhor forma de defender.
              Pós em Cibersegurança Ofensiva · Acadi-TI
   local      Jacarezinho, PR — Brasil
   foco       SOC · SIEM · Pentest · AppSec / DevSecOps
+```
+
+<br/>
+
+### `> map --areas`
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#0DD1CA','primaryBorderColor':'#0DD1CA','lineColor':'#0DD1CA','secondaryColor':'#0d1117','tertiaryColor':'#0d1117','fontFamily':'monospace'}}}%%
+flowchart LR
+  P(("pablodlz")) --> B["🛡️ Blue Team / SOC"]
+  P --> R["🗡️ Offensive"]
+  P --> A["🧪 AppSec / DevSecOps"]
+  P --> M["🤖 Research"]
+  B --> B1["SIEM · triagem · resposta a incidentes"]
+  R --> R1["pentest · CTFs · labs"]
+  A --> A1["SSDLC · SAST/DAST · threat modeling"]
+  M --> M1["ML × ransomware"]
+  R -. "entender o ataque" .-> B
+  B -. "defender melhor" .-> R
 ```
 
 <br/>
@@ -120,12 +139,33 @@ entender o ataque é a melhor forma de defender.
 
 <br/>
 
-### `> ./stats`
+### `> neofetch`
+
+<!--NEOFETCH:START-->
+```text
+aguardando primeira execução do bot…
+```
+<!--NEOFETCH:END-->
+
+<br/>
+
+### `> languages --top`
+
+<!--LANGS:START-->
+```text
+aguardando primeira execução do bot…
+```
+<!--LANGS:END-->
+
+<sub>📊 stats e linguagens computados por mim mesmo via GitHub Actions — sem depender de serviços que caem.</sub>
+
+<br/>
+
+### `> git log --graph`  ·  contribuições
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=pablodlz&show_icons=true&count_private=true&hide_border=true&title_color=0DD1CA&icon_color=0DD1CA&text_color=c9d1d9&bg_color=0D1117)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pablodlz&layout=compact&hide_border=true&langs_count=8&title_color=0DD1CA&text_color=c9d1d9&bg_color=0D1117)
+<img width="100%" src="https://raw.githubusercontent.com/pablodlz/pablodlz/output/github-contribution-grid-snake.svg" alt="Cobrinha de contribuições" />
 
 </div>
 
