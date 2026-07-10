@@ -1,3 +1,5 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0DD1CA&height=120&section=header" alt="" />
+
 <div align="center">
 
 # Pablo Galerani
@@ -172,6 +174,17 @@ JavaScript   ░░░░░░░░░░░░░░░░░░░░░░ 
 
 <br/>
 
+### `> uptime` · streak & coding time
+
+<div align="center">
+
+<img height="180" src="https://streak-stats.demolab.com?user=pablodlz&hide_border=true&background=0D1117&stroke=0DD1CA&ring=0DD1CA&fire=0DD1CA&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=0DD1CA&sideLabels=8b949e&dates=8b949e" alt="Streak atual de contribuições" />
+<img height="180" src="https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=pablodlz&hide_title=false&hide_border=true&langs_count=5&bg_color=0D1117&text_color=c9d1d9&title_color=0DD1CA" alt="Tempo de código na semana (WakaTime)" />
+
+</div>
+
+<br/>
+
 ### `> git log --graph`  ·  contribuições
 
 <div align="center">
@@ -184,6 +197,15 @@ JavaScript   ░░░░░░░░░░░░░░░░░░░░░░ 
 
 <div align="center">
 
+<img width="420" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="coding" />
+
+<br/>
+
+[![Open Source](https://img.shields.io/badge/Open_Source-%E2%99%A5-0DD1CA?style=flat-square&labelColor=0D1117)](https://github.com/pablodlz?tab=repositories)
+&nbsp;<sub>o [portfólio](https://github.com/pablodlz/portfolio) e este perfil são **open source** — código aberto, zero segredos.</sub>
+
+<br/>
+
 ```bash
 $ ./pablodlz.sh          # o tour completo tá no portfólio ↴
 ```
@@ -191,3 +213,5 @@ $ ./pablodlz.sh          # o tour completo tá no portfólio ↴
 **[pablodlz.github.io/portfolio](https://pablodlz.github.io/portfolio/)**
 
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0DD1CA&height=120&section=footer" alt="" />

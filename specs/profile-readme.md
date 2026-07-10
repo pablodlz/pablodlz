@@ -62,7 +62,20 @@ onde encontrá-lo, e puxar pro portfólio.
 10. **`> git log --graph`** — cobrinha (snake) TEAL, gerada pelo `snake.yml`
     (branch `output`). Reposta a pedido; workflow modernizado (Platane/snk@v3,
     cores teal, cron 1×/dia — o cron antigo `* */12` rodava 60×/hora).
-11. **Rodapé** (centro) — 1 linha de terminal (`./pablodlz.sh`) + CTA pro portfólio.
+11. **Rodapé** (centro) — GIF de código + badge **Open Source** (original, honesto:
+    portfólio/perfil são de fato abertos — NÃO o "opensource story" plagiado do
+    backup) + `./pablodlz.sh` + CTA pro portfólio.
+12. **Bordas** (topo e rodapé) — ondas `capsule-render` em teal `#0DD1CA`
+    (recoloridas do backup, que era azul `#5bcdec`).
+
+**Extras vindos do backup (a pedido do Pablo), recoloridos p/ teal:**
+- **Streak** via `streak-stats.demolab.com` (herokuapp do backup morreu) — confiável.
+- **WakaTime week stats** via mirror `github-readme-stats-taupe-two.vercel.app`
+  (o `github-readme-stats.vercel.app` principal vive em 503). Depende de conta
+  WakaTime pública (`wakatime.com/@pablodlz`) + o plugin do editor rastreando —
+  senão o card vem vazio. É um serviço externo (pode oscilar).
+- **GIF** `code.gif` hotlinkado do repo `abhisheknaiidu/abhisheknaiidu` (asset
+  de comunidade, mas de terceiro → risco de sumir; ideal hospedar um próprio).
 
 
 ### 4.1 Conteúdo dinâmico (GitHub Actions)
