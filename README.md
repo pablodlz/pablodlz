@@ -108,7 +108,6 @@ flowchart LR
 ![Linux](https://img.shields.io/badge/Linux-0D1117?style=flat-square&logo=linux&logoColor=00B2DF)
 ![Git](https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=00B2DF)
 
-
 <sub>**Pesquisa:**</sub><br/>
 Undersampling applied to Ransomware Detection: An Analysis of NearMiss and Random Undersampling Techniques — artigo científico em publicação.</sub>
 
@@ -126,18 +125,17 @@ Undersampling applied to Ransomware Detection: An Analysis of NearMiss and Rando
 
 ### Projetos
 
-|  |  |
-| --- | --- |
+|                                                        |                                                                                                                                                                               |
+| ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [**portfolio**](https://github.com/pablodlz/portfolio) | Site interativo com terminal Kali funcional (~90 comandos), pet cyber **b1t** e CSP estrita — Astro · TypeScript. **[Demo ao vivo ↗](https://pablodlz.github.io/portfolio/)** |
-| [**pablodlz**](https://github.com/pablodlz/pablodlz) | Este perfil — escrito *spec-driven* ([spec](specs/profile-readme.md)) e mantido vivo por GitHub Actions. |
-| [**AppSec**](https://www.linkedin.com/in/pablodlz/) | Application Security - Como implementar o Ciclo de Vida de Desenvolvimento de Software Seguro (SSDLC) do zero |
+| [**pablodlz**](https://github.com/pablodlz/pablodlz)   | Este perfil — escrito _spec-driven_ ([spec](specs/profile-readme.md)) e mantido vivo por GitHub Actions.                                                                      |
+| [**AppSec**](https://www.linkedin.com/in/pablodlz/)    | Application Security - Como implementar o Ciclo de Vida de Desenvolvimento de Software Seguro (SSDLC) do zero                                                                 |
 
 <br/>
 
 <div align="center">
 
 ### Streak & Coding time
-
 
 <img width="460" src="https://streak-stats.demolab.com?user=pablodlz&hide_border=true&background=0D1117&stroke=00B2DF&ring=00B2DF&fire=00B2DF&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=00B2DF&sideLabels=8b949e&dates=8b949e" alt="Streak atual de contribuições" />
 
@@ -147,8 +145,8 @@ Undersampling applied to Ransomware Detection: An Analysis of NearMiss and Rando
 
 <img width="100%" src="https://raw.githubusercontent.com/pablodlz/pablodlz/output/github-contribution-grid-snake.svg" alt="Cobrinha de contribuições" />
 
+<img width=100% src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00B2DF&height=120&section=footer" alt="" />
 
 </div>
-
-<img width=100% src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
