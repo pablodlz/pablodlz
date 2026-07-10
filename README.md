@@ -1,12 +1,14 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00B2DF&height=120&section=header" alt="" />
 
+<h1 align="center">Pablo&nbsp;Galerani</h1>
+
 <img align="right" width="150" src="assets/b1t.svg" alt="b1t — o mascote cyber" />
 
-# Pablo&nbsp;Galerani
-
+<p align="center">
 <code>Security&nbsp;Operations</code> · <code>Offensive&nbsp;Security</code> · <code>AppSec</code>
-
+<br/><br/>
 <a href="https://pablodlz.github.io/portfolio/"><img src="https://img.shields.io/badge/%E2%96%B6%20Ver%20Portf%C3%B3lio-0090B8?style=for-the-badge&labelColor=00B2DF" alt="Ver Portfólio" /></a>
+</p>
 
 <br clear="all"/>
 
@@ -141,7 +143,5 @@ Undersampling applied to Ransomware Detection: An Analysis of NearMiss and Rando
 <img width="100%" src="https://raw.githubusercontent.com/pablodlz/pablodlz/output/github-contribution-grid-snake.svg" alt="Cobrinha de contribuições" />
 
 <img width=100% src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00B2DF&height=120&section=footer" alt="" />
 
 </div>
