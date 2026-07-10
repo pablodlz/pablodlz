@@ -1,6 +1,6 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0DD1CA&height=120&section=header" alt="" />
 
-<table align="center">
+<table align="center" style="width:100%">
 <tr>
 <td valign="middle">
 <div align="center">
@@ -132,8 +132,6 @@ Undersampling applied to Ransomware Detection: An Analysis of NearMiss and Rando
 | [**pablodlz**](https://github.com/pablodlz/pablodlz) | Este perfil — escrito *spec-driven* ([spec](specs/profile-readme.md)) e mantido vivo por GitHub Actions. |
 | [**AppSec**](https://www.linkedin.com/in/pablodlz/) | Application Security - Como implementar o Ciclo de Vida de Desenvolvimento de Software Seguro (SSDLC) do zero |
 
-
-<br/>
 <br/>
 
 <div align="center">
