@@ -1,6 +1,6 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0DD1CA&height=120&section=header" alt="" />
 
-<table align="center" style="width:100% !important">
+<table align="center" width="100%">
 <tr>
 <td valign="middle">
 <div align="center">
