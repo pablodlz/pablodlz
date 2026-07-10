@@ -17,7 +17,7 @@
 [![HackerOne](https://img.shields.io/badge/HackerOne-0D1117?style=flat-square&logo=hackerone&logoColor=0DD1CA)](https://hackerone.com/pablodlz)
 [![Bugcrowd](https://img.shields.io/badge/Bugcrowd-0D1117?style=flat-square&logo=bugcrowd&logoColor=0DD1CA)](https://bugcrowd.com/h/pablodlz)
 [![Hack The Box](https://img.shields.io/badge/Hack_The_Box-0D1117?style=flat-square&logo=hackthebox&logoColor=0DD1CA)](https://profile.hackthebox.com/profile/019f2afa-cb43-718d-91a5-8d4f51e292a0f)
-[![LetsDefend](https://img.shields.io/badge/LetsDefend-0D1117?style=flat-square&logoColor=0DD1CA)](https://app.letsdefend.io/user/pablodlz)
+[![LetsDefend](https://img.shields.io/badge/LetsDefend-0D1117?style=flat-square&logo=letsencrypt&logoColor=0DD1CA)](https://app.letsdefend.io/user/pablodlz)
 [![Email](https://img.shields.io/badge/Email-0D1117?style=flat-square&logo=gmail&logoColor=0DD1CA)](mailto:pablogalerani@gmail.com)
 
 </div>
@@ -65,18 +65,18 @@ flowchart LR
 ### Stack
 
 <sub>**Blue Team / SOC**</sub><br/>
-![SIEM](https://img.shields.io/badge/SIEM-0D1117?style=flat-square&logoColor=0DD1CA)
+![SIEM](https://img.shields.io/badge/SIEM-0D1117?style=flat-square&logo=graylog&logoColor=0DD1CA)
 ![Splunk](https://img.shields.io/badge/Splunk-0D1117?style=flat-square&logo=splunk&logoColor=0DD1CA)
-![Wazuh](https://img.shields.io/badge/Wazuh-0D1117?style=flat-square&logo=wazuh&logoColor=0DD1CA)
+![Wazuh](https://img.shields.io/badge/Wazuh-0D1117?style=flat-square&logo=keepassxc&logoColor=0DD1CA)
 ![Wireshark](https://img.shields.io/badge/Wireshark-0D1117?style=flat-square&logo=wireshark&logoColor=0DD1CA)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-0D1117?style=flat-square&logoColor=0DD1CA)
-![NIST](https://img.shields.io/badge/NIST-0D1117?style=flat-square&logoColor=0DD1CA)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-0D1117?style=flat-square&logo=target&logoColor=0DD1CA)
+![NIST](https://img.shields.io/badge/NIST-0D1117?style=flat-square&logo=bookstack&logoColor=0DD1CA)
 
 <sub>**Offensive Security**</sub><br/>
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-0D1117?style=flat-square&logo=kalilinux&logoColor=0DD1CA)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-0D1117?style=flat-square&logo=burpsuite&logoColor=0DD1CA)
 ![Metasploit](https://img.shields.io/badge/Metasploit-0D1117?style=flat-square&logo=metasploit&logoColor=0DD1CA)
-![Nmap](https://img.shields.io/badge/Nmap-0D1117?style=flat-square&logoColor=0DD1CA)
+![Nmap](https://img.shields.io/badge/Nmap-0D1117?style=flat-square&logo=speedtest&logoColor=0DD1CA)
 ![Hack The Box](https://img.shields.io/badge/Hack_The_Box-0D1117?style=flat-square&logo=hackthebox&logoColor=0DD1CA)
 ![TryHackMe](https://img.shields.io/badge/TryHackMe-0D1117?style=flat-square&logo=tryhackme&logoColor=0DD1CA)
 
