@@ -7,20 +7,20 @@
 
 README **minimalista, profissional e criativo**, que herda o *espírito* do
 portfólio (https://pablodlz.github.io/portfolio/) — identidade de terminal e de
-segurança — mas com estética enxuta e um **único acento teal `#0DD1CA`**.
+segurança — mas com estética enxuta e um **único acento teal `#00B2DF`**.
 Comunicar em segundos: quem é o Pablo, o que faz (SOC / Ofensiva / AppSec),
 onde encontrá-lo, e puxar pro portfólio.
 
 ## 2. Direção de design
 
 - **Minimalismo:** muito respiro, sem "muros" de badges, sem widgets decorativos
-  em excesso. Um acento só (`#0DD1CA`) sobre fundo escuro.
+  em excesso. Um acento só (`#00B2DF`) sobre fundo escuro.
 - **Sem imagens locais:** removidos o banner e o mascote de `files/`. Nada de
   `<img src="files/...">`. O visual vem de tipografia, blocos de terminal e de
   serviços SVG externos discretos (typing, stats).
 - **Terminal como assinatura:** blocos `$ whoami` / `$ cat about.txt` amarram
   ao site sem pesar.
-- **Badges monocromáticos teal:** chip escuro `#0d1117` + ícone `#0DD1CA` —
+- **Badges monocromáticos teal:** chip escuro `#0d1117` + ícone `#00B2DF` —
   uma única linguagem visual (conectar + stack).
 - **Curadoria:** só o que é real e relevante.
 
@@ -28,7 +28,7 @@ onde encontrá-lo, e puxar pro portfólio.
 
 | token | valor |
 |------|------|
-| accent | `#0DD1CA` |
+| accent | `#00B2DF` |
 | bg / chip | `#0d1117` |
 | texto | `#c9d1d9` |
 | texto-fraco | `#8b949e` |
@@ -65,7 +65,7 @@ onde encontrá-lo, e puxar pro portfólio.
 11. **Rodapé** (centro) — GIF de código + badge **Open Source** (original, honesto:
     portfólio/perfil são de fato abertos — NÃO o "opensource story" plagiado do
     backup) + `./pablodlz.sh` + CTA pro portfólio.
-12. **Bordas** (topo e rodapé) — ondas `capsule-render` em teal `#0DD1CA`
+12. **Bordas** (topo e rodapé) — ondas `capsule-render` em teal `#00B2DF`
     (recoloridas do backup, que era azul `#5bcdec`).
 
 **Extras vindos do backup (a pedido do Pablo), recoloridos p/ teal:**
@@ -128,7 +128,7 @@ commits do bot), que roda `.github/scripts/atividade.py` (stdlib, sem deps):
 
 ## 7. Critérios de aceite
 
-- [ ] Um único acento `#0DD1CA`; visual minimalista e coeso.
+- [ ] Um único acento `#00B2DF`; visual minimalista e coeso.
 - [ ] Sem `<img src="files/...">`; assets de imagem removidos do repo.
 - [ ] Zero dados de terceiros; tudo confere com `linkedin.json`.
 - [ ] Links resolvem (200); serviços de badge vivos (demolab/komarev/shields).

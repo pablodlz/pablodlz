@@ -17,7 +17,7 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#0DD1CA&color_dots=#161b22,#0a5f5a,#12b3ab,#0DD1CA,#7ff0ea
+            dist/github-contribution-grid-snake.svg?color_snake=#00B2DF&color_dots=#161b22,#08506b,#0a86ad,#00B2DF,#66d4f0
 
       - name: Publica no branch output
         uses: crazy-max/ghaction-github-pages@v4
