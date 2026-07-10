@@ -23,7 +23,7 @@
 <br/>
 
 ```bash
-Last login: Sex, 10 jul 2026 17:15 -03 from 10.10.14.7
+Last login: Sex, 10 jul 2026 17:17 -03 from 10.10.14.7
 uptime: 282 dias operando no SOC @ Clavis · rumo ao OSCP
 
 $ whoami
@@ -127,12 +127,12 @@ flowchart LR
 
 <!--ATIVIDADE:START-->
 ```text
+[10/07 17:17] push     pablodlz     "README v6: conserta stats/langs + cobrinha; m…"
+[10/07 17:03] push     pablodlz     "README v5: repo writeups + foco.md + uptime d…"
 [10/07 16:39] push     pablodlz     → main
 [10/07 16:27] push     pablodlz     "chore: ignora __pycache__"
 [10/07 16:23] push     pablodlz     "README v4: secoes dinamicas (Actions) + proje…"
 [10/07 15:56] push     pablodlz     "README v3: reformulacao minimalista, tema tea…"
-[10/07 15:41] push     portfolio    "."
-[10/07 15:28] push     portfolio    "."
 ```
 <!--ATIVIDADE:END-->
 <sub>🤖 atualizado automaticamente a cada 8h via GitHub Actions</sub>
@@ -143,7 +143,15 @@ flowchart LR
 
 <!--NEOFETCH:START-->
 ```text
-aguardando primeira execução do bot…
+             pablodlz@github
+             ─────────────────────────────────
+  ▄▄▄▄▄▄▄     role.....: SOC Analyst @ Clavis
+  █ ▄ ▄ █     uptime...: 282d no SOC · rumo ao OSCP
+  █  ▀  █     repos....: 3 públicos · seguidores 1
+  ▀▄▄▄▄▄▀     stars....: 2
+   █   █      top langs: Astro · TypeScript · CSS
+  ▀▀   ▀▀     certs....: 50+ · CEH v13 (AI)
+              stack....: Kali · Splunk · Burp · Python
 ```
 <!--NEOFETCH:END-->
 
@@ -153,7 +161,11 @@ aguardando primeira execução do bot…
 
 <!--LANGS:START-->
 ```text
-aguardando primeira execução do bot…
+Astro        ████████████░░░░░░░░░░  52.6%
+TypeScript   ███████░░░░░░░░░░░░░░░  32.7%
+CSS          ██░░░░░░░░░░░░░░░░░░░░   8.3%
+HTML         █░░░░░░░░░░░░░░░░░░░░░   4.9%
+JavaScript   ░░░░░░░░░░░░░░░░░░░░░░   1.5%
 ```
 <!--LANGS:END-->
 
