@@ -74,8 +74,12 @@ onde encontrá-lo, e puxar pro portfólio.
   (o `github-readme-stats.vercel.app` principal vive em 503). Depende de conta
   WakaTime pública (`wakatime.com/@pablodlz`) + o plugin do editor rastreando —
   senão o card vem vazio. É um serviço externo (pode oscilar).
-- **GIF** `code.gif` hotlinkado do repo `abhisheknaiidu/abhisheknaiidu` (asset
-  de comunidade, mas de terceiro → risco de sumir; ideal hospedar um próprio).
+- **"GIF"** → substituído pelo **b1t animado próprio** (`assets/b1t.svg`, SVG
+  autoral com SMIL: flutua, antena pulsa, olhos piscam — tema teal). Zero
+  dependência de terceiro (o `code.gif` do backup era de outro usuário) e é a
+  cara do site (o mascote). SVG animado renderiza no GitHub via camo.
+- streak + wakatime EMPILHADOS (cada um em sua linha, `width=460`) → responsivo
+  no desktop e no mobile (evita overflow/desalinho dos aspect-ratios diferentes).
 
 
 ### 4.1 Conteúdo dinâmico (GitHub Actions)

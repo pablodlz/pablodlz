@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 -12 96 96" width="170" height="170" role="img" aria-label="b1t — o mascote cyber, animado">
+  <defs>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#0DD1CA" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <g filter="url(#glow)">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -3; 0 0" dur="3.4s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+    <line x1="36" y1="14" x2="36" y2="7" stroke="#2a2f36" stroke-width="2"/>
+    <circle cx="36" cy="6" r="3" fill="#0DD1CA">
+      <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="3;3.6;3" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="12" y="14" width="48" height="40" rx="13" fill="#12171d" stroke="#2a2f36" stroke-width="2"/>
+    <rect x="18" y="22" width="36" height="18" rx="9" fill="#0a0d11" stroke="#0DD1CA" stroke-opacity="0.35" stroke-width="1.5"/>
+    <g fill="#0DD1CA">
+      <circle cx="29" cy="31" r="3.4"/>
+      <circle cx="43" cy="31" r="3.4"/>
+      <animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.47;0.5;0.53;1" dur="3.6s" repeatCount="indefinite"/>
+    </g>
+    <path d="M30 45 q6 5 12 0" fill="none" stroke="#0DD1CA" stroke-width="2" stroke-linecap="round"/>
+    <rect x="22" y="56" width="9" height="6" rx="3" fill="#1a1f26" stroke="#2a2f36" stroke-width="1.5"/>
+    <rect x="41" y="56" width="9" height="6" rx="3" fill="#1a1f26" stroke="#2a2f36" stroke-width="1.5"/>
+  </g>
+</svg>

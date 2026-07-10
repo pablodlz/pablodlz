@@ -178,8 +178,9 @@ JavaScript   ░░░░░░░░░░░░░░░░░░░░░░ 
 
 <div align="center">
 
-<img height="180" src="https://streak-stats.demolab.com?user=pablodlz&hide_border=true&background=0D1117&stroke=0DD1CA&ring=0DD1CA&fire=0DD1CA&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=0DD1CA&sideLabels=8b949e&dates=8b949e" alt="Streak atual de contribuições" />
-<img height="180" src="https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=pablodlz&hide_title=false&hide_border=true&langs_count=5&bg_color=0D1117&text_color=c9d1d9&title_color=0DD1CA" alt="Tempo de código na semana (WakaTime)" />
+<img width="460" src="https://streak-stats.demolab.com?user=pablodlz&hide_border=true&background=0D1117&stroke=0DD1CA&ring=0DD1CA&fire=0DD1CA&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=0DD1CA&sideLabels=8b949e&dates=8b949e" alt="Streak atual de contribuições" />
+
+<img width="460" src="https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=pablodlz&hide_title=false&hide_border=true&langs_count=5&bg_color=0D1117&text_color=c9d1d9&title_color=0DD1CA" alt="Tempo de código na semana (WakaTime)" />
 
 </div>
 
@@ -197,7 +198,7 @@ JavaScript   ░░░░░░░░░░░░░░░░░░░░░░ 
 
 <div align="center">
 
-<img width="420" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="coding" />
+<img width="150" src="assets/b1t.svg" alt="b1t — o mascote cyber" />
 
 <br/>
 
