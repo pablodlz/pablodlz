@@ -3,13 +3,14 @@
 <table align="center">
 <tr>
 <td valign="middle">
+<div align="center">
 <h1>Pablo&nbsp;Galerani</h1>
 <code>Security&nbsp;Operations</code> · <code>Offensive&nbsp;Security</code> · <code>AppSec</code>
 </td>
 <td valign="middle" align="center">
 <img width="140" src="assets/b1t.svg" alt="b1t — o mascote cyber" />
 <br/><br/>
-<a href="https://pablodlz.github.io/portfolio/"><img src="https://img.shields.io/badge/%E2%96%B6%20Ver%20Portf%C3%B3lio-0DD1CA?style=for-the-badge&labelColor=0DD1CA" alt="Ver Portfólio" /></a>
+<a href="https://pablodlz.github.io/portfolio/"><img src="https://img.shields.io/badge/%E2%96%B6%20Ver%20Portf%C3%B3lio-0D8C8A?style=for-the-badge&labelColor=0DD1CA" alt="Ver Portfólio" /></a> </br>
 </td>
 </tr>
 </table>
@@ -40,11 +41,11 @@
 uptime: Operando no SOC @ Clavis
 
 ┌─(𝗿𝗼𝗼𝘁㉿𝗸𝗮𝗹𝗶)-[~]
-└$ whoami
+└# whoami
 pablodlz — SOC Analyst @ Clavis Segurança da Informação
 
 ┌─(𝗿𝗼𝗼𝘁㉿𝗸𝗮𝗹𝗶)-[~]
-└$ cat about.txt
+└# cat about.txt
 · Blue team de dia, labs ofensivos à noite
 · Entender o ataque é a melhor forma de defender.
 
@@ -107,7 +108,9 @@ flowchart LR
 ![Linux](https://img.shields.io/badge/Linux-0D1117?style=flat-square&logo=linux&logoColor=0DD1CA)
 ![Git](https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=0DD1CA)
 
-<sub>🔬 &nbsp;Pesquisa · Machine Learning aplicado à detecção de ransomware — artigo científico em publicação.</sub>
+
+<sub>**Pesquisa:**</sub><br/>
+Undersampling applied to Ransomware Detection: An Analysis of NearMiss and Random Undersampling Techniques — artigo científico em publicação.</sub>
 
 <br/>
 
@@ -123,11 +126,14 @@ flowchart LR
 
 ### Projetos
 
-|                                                        |                                                                                                                                                                               |
-| ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**portfolio**](https://github.com/pablodlz/portfolio) | Site interativo com terminal Kali funcional (~90 comandos), pet cyber **b1t** e CSP estrita — Astro · TypeScript. **[demo ao vivo ↗](https://pablodlz.github.io/portfolio/)** |
-| [**pablodlz**](https://github.com/pablodlz/pablodlz)   | Este perfil — escrito _spec-driven_ ([spec](specs/profile-readme.md)) e mantido vivo por GitHub Actions.                                                                      |
+|  |  |
+| --- | --- |
+| [**portfolio**](https://github.com/pablodlz/portfolio) | Site interativo com terminal Kali funcional (~90 comandos), pet cyber **b1t** e CSP estrita — Astro · TypeScript. **[Demo ao vivo ↗](https://pablodlz.github.io/portfolio/)** |
+| [**pablodlz**](https://github.com/pablodlz/pablodlz) | Este perfil — escrito *spec-driven* ([spec](specs/profile-readme.md)) e mantido vivo por GitHub Actions. |
+| [**AppSec**](https://www.linkedin.com/in/pablodlz/) | Application Security - Como implementar o Ciclo de Vida de Desenvolvimento de Software Seguro (SSDLC) do zero |
 
+
+<br/>
 <br/>
 
 <div align="center">
@@ -136,8 +142,6 @@ flowchart LR
 
 
 <img width="460" src="https://streak-stats.demolab.com?user=pablodlz&hide_border=true&background=0D1117&stroke=0DD1CA&ring=0DD1CA&fire=0DD1CA&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=0DD1CA&sideLabels=8b949e&dates=8b949e" alt="Streak atual de contribuições" />
-
-<img width="460" src="https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=pablodlz&hide_title=false&hide_border=true&langs_count=5&bg_color=0D1117&text_color=c9d1d9&title_color=0DD1CA" alt="Tempo de código na semana (WakaTime)" />
 
 </div>
 
@@ -148,3 +152,5 @@ flowchart LR
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0DD1CA&height=120&section=footer" alt="" />
 
 </div>
+
+<img width=100% src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
