@@ -70,6 +70,8 @@ def line_for(ev):
         raw = commit_msg(ev["repo"]["name"], p.get("head", ""))
         if raw.startswith(("Merge branch", "Merge pull request", "Merge remote")):
             raw = ""  # ruído de merge → mostra só o push pro branch
+        if "writeups" in raw.lower():
+            raw = ""  # não expõe menção a repo removido no log
         msg = short(raw)
         if msg:
             return f'[{stamp}] push     {repo:<12} "{msg}"'

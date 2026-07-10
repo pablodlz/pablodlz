@@ -47,8 +47,8 @@ onde encontrá-lo, e puxar pro portfólio.
 4. **Certs** — 1 linha (chips de código): CEH, CNSE, CSAE, CPTE, CRTA, 50+, alvos.
 5. **`> cat foco.md`** — "now page": foco atual (red team/pentest rumo ao OSCP,
    CEH v13, artigo de ML, rotina de CTFs). Sinal alto e barato de intenção.
-6. **`> ls ~/projetos`** — projetos em destaque (tabela): portfólio (com demo),
-   **writeups** (repo de CTFs/labs) e este perfil.
+6. **`> ls ~/projetos`** — projetos em destaque (tabela): portfólio (com demo)
+   e este perfil.
 7. **`> tail -f atividade.log`** — atividade recente REAL em formato de log de
    terminal, gerada automaticamente (ver §4.1).
 7.5. **`> map --areas`** — diagrama **mermaid** (flowchart LR, tema teal via
@@ -64,9 +64,6 @@ onde encontrá-lo, e puxar pro portfólio.
     cores teal, cron 1×/dia — o cron antigo `* */12` rodava 60×/hora).
 11. **Rodapé** (centro) — 1 linha de terminal (`./pablodlz.sh`) + CTA pro portfólio.
 
-**Repositório companheiro** (`pablodlz/writeups`): notas de CTFs/labs/máquinas
-(HTB/THM/LetsDefend) com metodologia + template. É o sinal nº 1 que o mercado
-valoriza num perfil de segurança (prova verificável de método). Linkado em §6.
 
 ### 4.1 Conteúdo dinâmico (GitHub Actions)
 

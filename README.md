@@ -118,7 +118,6 @@ flowchart LR
 | | |
 |---|---|
 | [**portfolio**](https://github.com/pablodlz/portfolio) | Site interativo com terminal Kali funcional (~90 comandos), pet cyber **b1t** e CSP estrita — Astro · TypeScript. **[demo ao vivo ↗](https://pablodlz.github.io/portfolio/)** |
-| [**writeups**](https://github.com/pablodlz/writeups) | Notas de CTFs, labs e máquinas (HTB · TryHackMe · LetsDefend) — metodologia consistente, do recon ao report. |
 | [**pablodlz**](https://github.com/pablodlz/pablodlz) | Este perfil — escrito *spec-driven* ([spec](specs/profile-readme.md)) e mantido vivo por GitHub Actions. |
 
 <br/>
@@ -128,7 +127,7 @@ flowchart LR
 <!--ATIVIDADE:START-->
 ```text
 [10/07 17:17] push     pablodlz     "README v6: conserta stats/langs + cobrinha; m…"
-[10/07 17:03] push     pablodlz     "README v5: repo writeups + foco.md + uptime d…"
+[10/07 17:03] push     pablodlz     → main
 [10/07 16:39] push     pablodlz     → main
 [10/07 16:27] push     pablodlz     "chore: ignora __pycache__"
 [10/07 16:23] push     pablodlz     "README v4: secoes dinamicas (Actions) + proje…"
