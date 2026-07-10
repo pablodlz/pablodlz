@@ -39,13 +39,37 @@ onde encontrá-lo, e puxar pro portfólio.
 1. **Cabeçalho** (centro): nome + papel + typing SVG teal (1 linha, discreta) +
    linha de conexões (badges teal-mono).
 2. **`$ whoami` / `$ cat about.txt`** — bloco de terminal com o essencial
-   (cargo, bio curta, formação, local, foco).
+   (cargo, bio curta, formação, local, foco). Primeira linha: **`Last login:`**
+   estilo banner SSH — atualizada automaticamente pelo bot (ver §4.1).
 3. **Stack** — badges teal-mono agrupados (Blue Team/SOC, Ofensiva,
    AppSec/DevSecOps, Linguagens) + 1 linha de pesquisa (ML).
 4. **Certs** — 1 linha (chips de código): CEH, CNSE, CSAE, CPTE, CRTA, 50+, alvos.
-5. **`> ./stats`** — 2 cards do github-readme-stats no tema teal (stats + langs).
+5. **`> ls ~/projetos`** — projetos em destaque (tabela de 2 colunas): o
+   portfólio (com link pra demo) e este perfil (spec-driven).
+6. **`> tail -f atividade.log`** — atividade recente REAL em formato de log de
+   terminal, gerada automaticamente (ver §4.1).
+7. **`> ./stats`** — 2 cards do github-readme-stats no tema teal (stats + langs).
    Sem troféus/streak/snake (minimalismo).
-6. **Rodapé** (centro) — 1 linha de terminal (`./pablodlz.sh`) + CTA pro portfólio.
+8. **Rodapé** (centro) — 1 linha de terminal (`./pablodlz.sh`) + CTA pro portfólio.
+
+### 4.1 Conteúdo dinâmico (GitHub Actions)
+
+O que o mercado valoriza em 2026: sinal real e vivo, não decoração. Duas
+seções se atualizam sozinhas via `.github/workflows/update-readme.yml`
+(cron a cada 8h + push na main + manual), que roda
+`.github/scripts/atividade.py` (stdlib pura, sem dependências):
+
+- **`Last login:`** — carimbo de data/hora (UTC-3 fixo; Brasil não tem mais
+  horário de verão) no topo do bloco whoami, como um banner SSH real.
+  O IP `10.10.14.7` é o clássico IP de atacante da VPN do Hack The Box (piada
+  interna pra quem é da área).
+- **`atividade.log`** — últimos 6 eventos públicos do GitHub (push/PR/issue/
+  release/star/fork) em formato `[dd/mm hh:mm] tipo repo "mensagem"`, entre os
+  marcadores `<!--ATIVIDADE:START/END-->`. Gotcha: o payload de PushEvent da
+  API de eventos NÃO traz mais os commits → a mensagem é buscada à parte via
+  `/repos/{repo}/commits/{sha}` (fallback: linha sem mensagem). Falha de API
+  não derruba o README (mantém o bloco anterior).
+- O commit do bot usa `GITHUB_TOKEN` → não re-dispara o workflow (sem loop).
 
 ## 5. Dados reais (de `linkedin.json`)
 

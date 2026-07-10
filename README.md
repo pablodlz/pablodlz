@@ -23,6 +23,8 @@
 <br/>
 
 ```bash
+Last login: Sex, 10 jul 2026 16:20 -03 from 10.10.14.7
+
 $ whoami
 pablodlz — SOC Analyst @ Clavis Segurança da Informação
 
@@ -77,6 +79,31 @@ entender o ataque é a melhor forma de defender.
 ### Certs
 
 <code>CEH v13 (AI)</code> · <code>CNSE</code> · <code>CSAE</code> · <code>CPTE</code> · <code>CRTA</code> &nbsp;—&nbsp; **50+** &nbsp;·&nbsp; próximos: <code>Security+</code> <code>eJPT</code> <code>OSCP</code>
+
+<br/>
+
+### `> ls ~/projetos`
+
+| | |
+|---|---|
+| [**portfolio**](https://github.com/pablodlz/portfolio) | Site interativo com terminal Kali funcional (~90 comandos), pet cyber **b1t** e CSP estrita — Astro · TypeScript. **[demo ao vivo ↗](https://pablodlz.github.io/portfolio/)** |
+| [**pablodlz**](https://github.com/pablodlz/pablodlz) | Este perfil — escrito *spec-driven* ([spec](specs/profile-readme.md)) e mantido vivo por GitHub Actions. |
+
+<br/>
+
+### `> tail -f atividade.log`
+
+<!--ATIVIDADE:START-->
+```text
+[10/07 15:56] push     pablodlz     "README v3: reformulacao minimalista, tema tea…"
+[10/07 15:41] push     portfolio    "."
+[10/07 15:28] push     portfolio    "."
+[10/07 15:23] push     portfolio    "."
+[10/07 15:19] push     pablodlz     "README v2: reescrita spec-driven na estetica …"
+[10/07 14:59] push     pablodlz     "README: reescreve o perfil com dados reais (S…"
+```
+<!--ATIVIDADE:END-->
+<sub>🤖 atualizado automaticamente a cada 8h via GitHub Actions</sub>
 
 <br/>
 
