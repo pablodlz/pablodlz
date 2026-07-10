@@ -13,7 +13,7 @@
 <br/>
 
 [![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-0D1117?style=flat-square&logo=firefoxbrowser&logoColor=0DD1CA)](https://pablodlz.github.io/portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=linkedin&logoColor=0DD1CA)](https://www.linkedin.com/in/pablodlz/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzBERDFDQSI%2BPHBhdGggZD0iTTkgM2g2YTIgMiAwIDAgMSAyIDJ2MmgzYTIgMiAwIDAgMSAyIDJ2OWEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMlY5YTIgMiAwIDAgMSAyLTJoM1Y1YTIgMiAwIDAgMSAyLTJ6bTAgNGg2VjVIOXYyeiIvPjwvc3ZnPg==)](https://www.linkedin.com/in/pablodlz/)
 [![HackerOne](https://img.shields.io/badge/HackerOne-0D1117?style=flat-square&logo=hackerone&logoColor=0DD1CA)](https://hackerone.com/pablodlz)
 [![Bugcrowd](https://img.shields.io/badge/Bugcrowd-0D1117?style=flat-square&logo=bugcrowd&logoColor=0DD1CA)](https://bugcrowd.com/h/pablodlz)
 [![Hack The Box](https://img.shields.io/badge/Hack_The_Box-0D1117?style=flat-square&logo=hackthebox&logoColor=0DD1CA)](https://profile.hackthebox.com/profile/019f2afa-cb43-718d-91a5-8d4f51e292a0f)
