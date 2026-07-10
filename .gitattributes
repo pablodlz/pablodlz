@@ -1,0 +1,12 @@
+# normalizacao de fim de linha (evita avisos LF/CRLF)
+* text=auto
+
+# binarios
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.mp3 binary
+*.pdf binary
