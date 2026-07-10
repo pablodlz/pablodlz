@@ -1,102 +1,74 @@
 # Spec — README do perfil (`pablodlz/pablodlz`)
 
-> Documento de especificação do README do perfil do GitHub. Mesmo método
-> spec-driven do portfólio. Fonte de verdade dos dados: `data/linkedin.json`
-> do repo `pablodlz/portfolio` — **nada é inventado**.
+> Especificação do README do perfil. Fonte de verdade dos dados:
+> `data/linkedin.json` do repo `pablodlz/portfolio` — **nada é inventado**.
 
 ## 1. Objetivo
 
-Um README de perfil que seja **inconfundivelmente do mesmo autor do portfólio**
-(https://pablodlz.github.io/portfolio/): premium, criativo, estética de terminal
-Kali com um único acento laranja. Deve comunicar em segundos: _quem é o Pablo,
-o que ele faz (SOC / Ofensiva / AppSec) e onde encontrá-lo_ — e levar ao portfólio.
+README **minimalista, profissional e criativo**, que herda o *espírito* do
+portfólio (https://pablodlz.github.io/portfolio/) — identidade de terminal e de
+segurança — mas com estética enxuta e um **único acento teal `#0DD1CA`**.
+Comunicar em segundos: quem é o Pablo, o que faz (SOC / Ofensiva / AppSec),
+onde encontrá-lo, e puxar pro portfólio.
 
-## 2. Público
+## 2. Direção de design
 
-- Recrutadores de segurança (BR, principalmente) — idioma **PT-BR**.
-- Comunidade de segurança (HackerOne, Bugcrowd, HTB, LetsDefend).
-- Curiosos que caem no perfil pelo portfólio ou pelo LinkedIn.
+- **Minimalismo:** muito respiro, sem "muros" de badges, sem widgets decorativos
+  em excesso. Um acento só (`#0DD1CA`) sobre fundo escuro.
+- **Sem imagens locais:** removidos o banner e o mascote de `files/`. Nada de
+  `<img src="files/...">`. O visual vem de tipografia, blocos de terminal e de
+  serviços SVG externos discretos (typing, stats).
+- **Terminal como assinatura:** blocos `$ whoami` / `$ cat about.txt` amarram
+  ao site sem pesar.
+- **Badges monocromáticos teal:** chip escuro `#0d1117` + ícone `#0DD1CA` —
+  uma única linguagem visual (conectar + stack).
+- **Curadoria:** só o que é real e relevante.
 
-## 3. Princípios de design (herdados do site)
-
-- **Acento único:** laranja `#ff5024` sobre fundo escuro `#0d1117`/`#151413`.
-- **Identidade de terminal:** prompts `root@kali`, comandos `./algo.sh`, base64,
-  `nmap · sqlmap · matrix`. Nada de dump genérico de badges.
-- **Curadoria > quantidade:** só o que é real e relevante (o README antigo era um
-  dump copiado de terceiros — descartado por completo).
-- **Mascote b1t:** o robô cyber é a assinatura do site → aparece no README.
-- **Gamificação discreta:** um easter egg (base64 → flag) que puxa pro portfólio.
-
-## 4. Tokens
+## 3. Tokens
 
 | token | valor |
 |------|------|
-| accent | `#ff5024` |
-| bg | `#0d1117` |
-| card | `#151413` |
+| accent | `#0DD1CA` |
+| bg / chip | `#0d1117` |
 | texto | `#c9d1d9` |
-| texto-fraco | `#8a8378` |
-| fonte | JetBrains Mono / monospace |
+| texto-fraco | `#8b949e` |
+| fonte | monoespaçada |
 
-## 5. Arquitetura da informação
+## 4. Arquitetura da informação (enxuta)
 
-1. **Herói** — banner de terminal (`files/perfil-final2.png`) que o Pablo já
-   produziu: janela `root@kali`, retrato ASCII, bloco `./pablodlz.sh` com whoami.
-2. **Taglines** — typing SVG laranja (serviço `demolab`, mantido).
-3. **Conectar** — badges: Portfólio, LinkedIn, HackerOne, Bugcrowd, HTB,
-   LetsDefend, Email. + contador de visitas (`komarev`).
-4. **`> cat sobre.txt`** — 3–4 linhas de bio real, punchy.
-5. **`> ./stack.sh`** (colapsável) — arsenal real agrupado (SOC/Defesa, Ofensiva,
-   AppSec/DevSecOps, Linguagens).
-6. **`> ./certs.sh`** (colapsável) — CEH, CNSE, CSAE, CPTE, CRTA, 50+, próximos alvos.
-7. **`> ./stats.sh`** — stats do GitHub no tema laranja + top langs + streak.
-8. **Cobrinha** — snake de contribuições (workflow já existente).
-9. **Rodapé** — mascote **b1t** + easter egg base64 + CTA pro portfólio.
+1. **Cabeçalho** (centro): nome + papel + typing SVG teal (1 linha, discreta) +
+   linha de conexões (badges teal-mono).
+2. **`$ whoami` / `$ cat about.txt`** — bloco de terminal com o essencial
+   (cargo, bio curta, formação, local, foco).
+3. **Stack** — badges teal-mono agrupados (Blue Team/SOC, Ofensiva,
+   AppSec/DevSecOps, Linguagens) + 1 linha de pesquisa (ML).
+4. **Certs** — 1 linha (chips de código): CEH, CNSE, CSAE, CPTE, CRTA, 50+, alvos.
+5. **`> ./stats`** — 2 cards do github-readme-stats no tema teal (stats + langs).
+   Sem troféus/streak/snake (minimalismo).
+6. **Rodapé** (centro) — 1 linha de terminal (`./pablodlz.sh`) + CTA pro portfólio.
 
-## 6. Fonte dos dados (reais)
+## 5. Dados reais (de `linkedin.json`)
 
-De `data/linkedin.json` (`pablodlz/portfolio`):
 - Cargo: Analista de Operações de Segurança (SOC) @ Clavis Segurança da Informação.
 - Formação: Tec. Segurança da Informação (Fatec) + Pós em Cibersegurança Ofensiva (Acadi-TI).
 - SOC: SIEM (Octopus, Wazuh, Rapid7), phishing, triagem, playbooks, Jira/SLA.
-- AppSec: SSDLC, threat modeling (DFD/STRIDE), SAST/DAST/SCA (Snyk, Horusec, OWASP ZAP), CI/CD.
-- Frameworks: OWASP, NIST, MITRE ATT&CK.
-- Pesquisa: ML aplicado à cibersegurança (artigo em publicação).
+- AppSec: SSDLC, threat modeling (DFD/STRIDE), SAST/DAST/SCA (Snyk, Horusec, ZAP), CI/CD.
+- Frameworks: OWASP, NIST, MITRE ATT&CK. Pentest/CTFs/labs.
+- Pesquisa: ML aplicado à detecção de ransomware (artigo em publicação).
 - Certs: CNSE/CSAE/CPTE (ok), CRTA/CEH v13 AI (andamento); alvos: Security+, Pentest+, eJPT, DCPT, OSCP.
-- Sociais: HackerOne, Bugcrowd, HTB, LetsDefend (todos `pablodlz`).
-- Contato: pablogalerani@gmail.com · https://pablodlz.github.io/portfolio/
+- Sociais (`pablodlz`): HackerOne, Bugcrowd, HTB, LetsDefend. Contato: pablogalerani@gmail.com.
 
-## 7. Inventário de assets
+## 6. Restrições (README no GitHub)
 
-| asset | uso | origem |
-|------|-----|--------|
-| `files/perfil-final2.png` | herói | feito pelo Pablo |
-| `files/perfil-final2.svg` | alt vetorial (crisp) | feito pelo Pablo |
-| `files/b1t.svg` | mascote no rodapé | recriado do `Mascot.astro` (cores fixas) |
-| snake `output` branch | cobrinha | `.github/workflows/snake.yml` (mantido) |
+- HTML sanitizado: sem `<script>`/`<style>`/`style=` (só `align`). "Movimento"
+  só via serviços SVG externos.
+- Sem imagens locais nesta versão (decisão de produto).
+- Emojis, code blocks, `<div align>`, badges e links funcionam.
 
-## 8. Restrições (renderização de README no GitHub)
+## 7. Critérios de aceite
 
-- HTML é sanitizado: **sem** `<script>`, `<style>`, `style=` (exceto `align`).
-  Nada de CSS/JS → o "movimento" vem de serviços SVG externos (typing/stats/snake).
-- SVG embutido em Markdown é removido → mascote/banner entram como **imagem**
-  (`<img>`), não SVG inline. Animações SMIL/CSS em SVG referenciado por `<img>`
-  **não animam** no GitHub (renderiza 1 frame) → b1t é estático.
-- Imagens por **caminho relativo** funcionam no README de perfil.
-- Emojis, code blocks, `<details>`, `<div align>` funcionam.
-
-## 9. O que reaproveitar do README antigo (`bkp/`)
-
-- ✅ Padrão de seções colapsáveis `<details>` (organização).
-- ✅ Cobrinha (snake) e widgets de stats.
-- ❌ Todo o CONTEÚDO — era copiado de gautamkrishnar, duartbreedt e thewhiteh4t.
-  O `bkp/` **não vai** pro repo público (contém dados de terceiros).
-
-## 10. Critérios de aceite
-
-- [ ] Zero dados de terceiros; tudo é do Pablo e confere com o `linkedin.json`.
-- [ ] Estética coerente com o site (laranja único, terminal, b1t).
-- [ ] Banner do Pablo como herói; b1t no rodapé.
-- [ ] Todos os links resolvem (200); imagens referenciadas existem no repo.
-- [ ] Serviços de badge mantidos (nada de `herokuapp`/`glitch.me` mortos).
+- [ ] Um único acento `#0DD1CA`; visual minimalista e coeso.
+- [ ] Sem `<img src="files/...">`; assets de imagem removidos do repo.
+- [ ] Zero dados de terceiros; tudo confere com `linkedin.json`.
+- [ ] Links resolvem (200); serviços de badge vivos (demolab/komarev/shields).
 - [ ] Legível no mobile (largura fluida, sem overflow horizontal).

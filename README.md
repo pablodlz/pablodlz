@@ -1,100 +1,91 @@
 <div align="center">
 
-<img src="files/perfil-final2.png" width="100%" alt="root@kali: ~/pablodlz — Pablo de Souza Galerani, Security Operations Analyst" />
+# Pablo Galerani
 
-<br/><br/>
+<code>Security&nbsp;Operations</code> · <code>Offensive&nbsp;Security</code> · <code>AppSec</code>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=21&pause=1000&color=FF5024&center=true&vCenter=true&width=720&lines=SOC+Analyst+%40+Clavis+Seguran%C3%A7a+da+Informa%C3%A7%C3%A3o;Seguran%C3%A7a+Ofensiva+%C2%B7+AppSec+%C2%B7+Blue+Team;Monitoramento%2C+triagem+e+resposta+a+incidentes;CTFs%2C+labs+e+pesquisa+em+seguran%C3%A7a)](https://pablodlz.github.io/portfolio/)
+<br/>
 
-[![Portfólio](https://img.shields.io/badge/%E2%96%B6_Portf%C3%B3lio-ff5024?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://pablodlz.github.io/portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pablodlz/)
-[![HackerOne](https://img.shields.io/badge/HackerOne-494649?style=for-the-badge&logo=hackerone&logoColor=white)](https://hackerone.com/pablodlz)
-[![Bugcrowd](https://img.shields.io/badge/Bugcrowd-F26822?style=for-the-badge&logo=bugcrowd&logoColor=white)](https://bugcrowd.com/h/pablodlz)
-[![Hack The Box](https://img.shields.io/badge/Hack_The_Box-141D2B?style=for-the-badge&logo=hackthebox&logoColor=9FEF00)](https://profile.hackthebox.com/profile/019f2afa-cb43-718d-91a5-8d4f51e292a0f)
-[![LetsDefend](https://img.shields.io/badge/LetsDefend-0B1E33?style=for-the-badge&logoColor=white)](https://app.letsdefend.io/user/pablodlz)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pablogalerani@gmail.com)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=17&pause=1200&color=0DD1CA&center=true&vCenter=true&width=560&height=32&lines=SOC+Analyst+%40+Clavis+Seguran%C3%A7a+da+Informa%C3%A7%C3%A3o;Blue+team+de+dia%2C+labs+ofensivos+%C3%A0+noite;CTFs+%C2%B7+labs+%C2%B7+security+research)](https://pablodlz.github.io/portfolio/)
 
-![Visitas no perfil](https://komarev.com/ghpvc/?username=pablodlz&color=ff5024&style=flat-square&label=visitas+no+perfil)
+<br/>
+
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-0D1117?style=flat-square&logo=firefoxbrowser&logoColor=0DD1CA)](https://pablodlz.github.io/portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=linkedin&logoColor=0DD1CA)](https://www.linkedin.com/in/pablodlz/)
+[![HackerOne](https://img.shields.io/badge/HackerOne-0D1117?style=flat-square&logo=hackerone&logoColor=0DD1CA)](https://hackerone.com/pablodlz)
+[![Bugcrowd](https://img.shields.io/badge/Bugcrowd-0D1117?style=flat-square&logo=bugcrowd&logoColor=0DD1CA)](https://bugcrowd.com/h/pablodlz)
+[![Hack The Box](https://img.shields.io/badge/Hack_The_Box-0D1117?style=flat-square&logo=hackthebox&logoColor=0DD1CA)](https://profile.hackthebox.com/profile/019f2afa-cb43-718d-91a5-8d4f51e292a0f)
+[![LetsDefend](https://img.shields.io/badge/LetsDefend-0D1117?style=flat-square&logoColor=0DD1CA)](https://app.letsdefend.io/user/pablodlz)
+[![Email](https://img.shields.io/badge/Email-0D1117?style=flat-square&logo=gmail&logoColor=0DD1CA)](mailto:pablogalerani@gmail.com)
 
 </div>
 
----
+<br/>
 
-### `> cat sobre.txt`
+```bash
+$ whoami
+pablodlz — SOC Analyst @ Clavis Segurança da Informação
 
-```
-Analista de Operações de Segurança (SOC) na Clavis Segurança da Informação.
-Tecnólogo em Segurança da Informação (Fatec) e pós-graduado em Cibersegurança
-Ofensiva (Acadi-TI). Blue team de dia, labs ofensivos à noite — porque
+$ cat about.txt
+Blue team de dia, labs ofensivos à noite —
 entender o ataque é a melhor forma de defender.
 
-# lema: "eficiência também é segurança"
+  formação   Tecnólogo em Segurança da Informação · Fatec
+             Pós em Cibersegurança Ofensiva · Acadi-TI
+  local      Jacarezinho, PR — Brasil
+  foco       SOC · SIEM · Pentest · AppSec / DevSecOps
 ```
 
----
+<br/>
 
-### `> ./stack.sh --list`
+### Stack
 
-**🛡️ Operações de Segurança & Blue Team**
+<sub>**Blue Team / SOC**</sub><br/>
+![SIEM](https://img.shields.io/badge/SIEM-0D1117?style=flat-square&logoColor=0DD1CA)
+![Splunk](https://img.shields.io/badge/Splunk-0D1117?style=flat-square&logo=splunk&logoColor=0DD1CA)
+![Wazuh](https://img.shields.io/badge/Wazuh-0D1117?style=flat-square&logo=wazuh&logoColor=0DD1CA)
+![Wireshark](https://img.shields.io/badge/Wireshark-0D1117?style=flat-square&logo=wireshark&logoColor=0DD1CA)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-0D1117?style=flat-square&logoColor=0DD1CA)
+![NIST](https://img.shields.io/badge/NIST-0D1117?style=flat-square&logoColor=0DD1CA)
 
-![SIEM](https://img.shields.io/badge/SIEM-ff5024?style=flat-square&logoColor=white)
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
-![Wazuh](https://img.shields.io/badge/Wazuh-3B8BEE?style=flat-square&logo=wazuh&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-CC0000?style=flat-square&logoColor=white)
-![NIST](https://img.shields.io/badge/NIST-005EA2?style=flat-square&logoColor=white)
+<sub>**Offensive Security**</sub><br/>
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-0D1117?style=flat-square&logo=kalilinux&logoColor=0DD1CA)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-0D1117?style=flat-square&logo=burpsuite&logoColor=0DD1CA)
+![Metasploit](https://img.shields.io/badge/Metasploit-0D1117?style=flat-square&logo=metasploit&logoColor=0DD1CA)
+![Nmap](https://img.shields.io/badge/Nmap-0D1117?style=flat-square&logoColor=0DD1CA)
+![Hack The Box](https://img.shields.io/badge/Hack_The_Box-0D1117?style=flat-square&logo=hackthebox&logoColor=0DD1CA)
+![TryHackMe](https://img.shields.io/badge/TryHackMe-0D1117?style=flat-square&logo=tryhackme&logoColor=0DD1CA)
 
-**🗡️ Segurança Ofensiva**
+<sub>**AppSec / DevSecOps**</sub><br/>
+![OWASP](https://img.shields.io/badge/OWASP-0D1117?style=flat-square&logo=owasp&logoColor=0DD1CA)
+![Snyk](https://img.shields.io/badge/Snyk-0D1117?style=flat-square&logo=snyk&logoColor=0DD1CA)
+![SonarQube](https://img.shields.io/badge/SonarQube-0D1117?style=flat-square&logo=sonarqube&logoColor=0DD1CA)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0D1117?style=flat-square&logo=githubactions&logoColor=0DD1CA)
+![Jenkins](https://img.shields.io/badge/Jenkins-0D1117?style=flat-square&logo=jenkins&logoColor=0DD1CA)
+![Docker](https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=0DD1CA)
 
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=flat-square&logoColor=white)
-![Hack The Box](https://img.shields.io/badge/Hack_The_Box-141D2B?style=flat-square&logo=hackthebox&logoColor=9FEF00)
-![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=flat-square&logo=tryhackme&logoColor=white)
+<sub>**Linguagens & Ambiente**</sub><br/>
+![Python](https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=0DD1CA)
+![Bash](https://img.shields.io/badge/Bash-0D1117?style=flat-square&logo=gnubash&logoColor=0DD1CA)
+![Linux](https://img.shields.io/badge/Linux-0D1117?style=flat-square&logo=linux&logoColor=0DD1CA)
+![Git](https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=0DD1CA)
 
-**🧪 AppSec / DevSecOps · Shift-Left**
+<sub>🔬 &nbsp;Pesquisa · Machine Learning aplicado à detecção de ransomware — artigo científico em publicação.</sub>
 
-![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white)
-![Snyk](https://img.shields.io/badge/Snyk-4C4A73?style=flat-square&logo=snyk&logoColor=white)
-![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+<br/>
 
-**⌨️ Linguagens & Ambiente**
+### Certs
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+<code>CEH v13 (AI)</code> · <code>CNSE</code> · <code>CSAE</code> · <code>CPTE</code> · <code>CRTA</code> &nbsp;—&nbsp; **50+** &nbsp;·&nbsp; próximos: <code>Security+</code> <code>eJPT</code> <code>OSCP</code>
 
-> 🤖 Pesquisa: **Machine Learning aplicado à cibersegurança** (detecção de ransomware) — artigo científico em processo de publicação.
+<br/>
 
----
-
-### `> ./certs.sh`
-
-```bash
-[✔] CEH v13 (AI)   [✔] CNSE   [✔] CSAE   [✔] CPTE   [~] CRTA   →  50+ certificados
-[ ] próximos alvos:  Security+ · Pentest+ · eJPT · DCPT · OSCP
-```
-
----
-
-### `> ./stats.sh`
+### `> ./stats`
 
 <div align="center">
 
-<img height="170px" src="https://github-readme-stats.vercel.app/api?username=pablodlz&show_icons=true&count_private=true&hide_border=true&title_color=ff5024&icon_color=ff5024&text_color=c9d1d9&bg_color=0d1117" alt="Estatísticas do GitHub de Pablo" />
-<img height="170px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pablodlz&layout=compact&hide_border=true&langs_count=8&title_color=ff5024&text_color=c9d1d9&bg_color=0d1117" alt="Linguagens mais usadas" />
-
-<img height="170px" src="https://streak-stats.demolab.com?user=pablodlz&hide_border=true&background=0D1117&stroke=ff5024&ring=ff5024&fire=ff5024&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=ff5024&sideLabels=ff5024&dates=8b949e" alt="Sequência de contribuições" />
-
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=pablodlz&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="Troféus" />
-
-<!-- Cobrinha gerada a cada 12h pelo .github/workflows/snake.yml → branch `output` -->
-<img width="100%" src="https://raw.githubusercontent.com/pablodlz/pablodlz/output/github-contribution-grid-snake.svg" alt="Cobrinha de contribuições" />
+![Stats](https://github-readme-stats.vercel.app/api?username=pablodlz&show_icons=true&count_private=true&hide_border=true&title_color=0DD1CA&icon_color=0DD1CA&text_color=c9d1d9&bg_color=0D1117)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pablodlz&layout=compact&hide_border=true&langs_count=8&title_color=0DD1CA&text_color=c9d1d9&bg_color=0D1117)
 
 </div>
 
@@ -102,18 +93,10 @@ entender o ataque é a melhor forma de defender.
 
 <div align="center">
 
-<img src="files/b1t.svg" width="112" alt="b1t — o mascote cyber" />
-
-<em>b1t agradece a visita. 🧡</em>
-
 ```bash
-> echo "RkxBR3twYWJsb2RsekBjdGZ9" | base64 -d    # 😉 a flag mora no terminal do portfólio
-┌──(root㉿kali)-[~]
-└─# ./pablodlz.sh
+$ ./pablodlz.sh          # o tour completo tá no portfólio ↴
 ```
 
-### [`▶  explore o portfólio interativo  →  pablodlz.github.io/portfolio`](https://pablodlz.github.io/portfolio/)
+**[pablodlz.github.io/portfolio](https://pablodlz.github.io/portfolio/)**
 
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=ff5024&height=110&section=footer" />
