@@ -1,5 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00B2DF&height=120&section=header" alt="" />
 
+<div align="center">
+
 <img align="right" width="22%" src="assets/b1t.svg" alt="b1t — o mascote cyber" />
 
 # Pablo&nbsp;Galerani
@@ -9,6 +11,8 @@
 <a href="https://pablodlz.github.io/portfolio/"><img src="https://img.shields.io/badge/%E2%96%B6%20Ver%20Portf%C3%B3lio-0090B8?style=for-the-badge&labelColor=00B2DF" alt="Ver Portfólio" /></a>
 
 <br clear="all"/>
+
+</div>
 
 <div align="center">
 
