@@ -1,14 +1,23 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00B2DF&height=120&section=header" alt="" />
 
-<img align="right" width="22%" src="assets/b1t.svg" alt="b1t — o mascote cyber" />
+<div align="center">
+<table>
+<tr>
+<td align="center" valign="middle">
 
 # Pablo&nbsp;Galerani
 
 <code>Security&nbsp;Operations</code> · <code>Offensive&nbsp;Security</code> · <code>AppSec</code>
 
+</td>
+<td align="center" valign="middle">
+<img width="110" src="assets/b1t.svg" alt="b1t — o mascote cyber" />
+<br/><br/>
 <a href="https://pablodlz.github.io/portfolio/"><img src="https://img.shields.io/badge/%E2%96%B6%20Ver%20Portf%C3%B3lio-0090B8?style=for-the-badge&labelColor=00B2DF" alt="Ver Portfólio" /></a>
-
-<br clear="all"/>
+</td>
+</tr>
+</table>
+</div>
 
 <div align="center">
 
