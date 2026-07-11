@@ -15,6 +15,8 @@
 <br/><br/>
 <a href="https://pablodlz.github.io/portfolio/"><img src="https://img.shields.io/badge/%E2%96%B6%20Ver%20Portf%C3%B3lio-0090B8?style=for-the-badge&labelColor=00B2DF" alt="Ver Portfólio" /></a>
 <br/>
+<a href="https://pablodlz.github.io/portfolio/curriculo-pablo-galerani.pdf"><img src="https://img.shields.io/badge/%E2%AC%87%20Baixar%20Curr%C3%ADculo-0090B8?style=for-the-badge&labelColor=00B2DF" alt="Baixar currículo" /></a>
+<br/>
 <br/>
 </td>
 </tr>
