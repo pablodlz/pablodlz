@@ -2,7 +2,6 @@
 
 <h1 align="center">Pablo&nbsp;Galerani</h1>
 
-<img align="left" width="22%" src="assets/spacer.svg" alt="" />
 <img align="right" width="22%" src="assets/b1t.svg" alt="b1t — o mascote cyber" />
 
 <p align="center">
