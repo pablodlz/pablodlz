@@ -2,17 +2,16 @@
 
 <h1 align="center">Pablo&nbsp;Galerani</h1>
 
-<table align="center"><tr>
-<td width="150" align="center"> </td>
-<td align="center">
+<img align="left" width="150" src="assets/spacer.svg" alt="" />
+<img align="right" width="150" src="assets/b1t.svg" alt="b1t — o mascote cyber" />
+
+<p align="center">
 <code>Security&nbsp;Operations</code> · <code>Offensive&nbsp;Security</code> · <code>AppSec</code>
 <br/><br/>
 <a href="https://pablodlz.github.io/portfolio/"><img src="https://img.shields.io/badge/%E2%96%B6%20Ver%20Portf%C3%B3lio-0090B8?style=for-the-badge&labelColor=00B2DF" alt="Ver Portfólio" /></a>
-</td>
-<td width="150" align="center" valign="middle">
-<img width="150" src="assets/b1t.svg" alt="b1t — o mascote cyber" />
-</td>
-</tr></table>
+</p>
+
+<br clear="all"/>
 
 <div align="center">
 
