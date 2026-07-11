@@ -15,8 +15,6 @@
 <br/><br/>
 <a href="https://pablodlz.github.io/portfolio/"><img src="https://img.shields.io/badge/%E2%96%B6%20Ver%20Portf%C3%B3lio-0090B8?style=for-the-badge&labelColor=00B2DF" alt="Ver Portfólio" /></a>
 <br/>
-<a href="https://pablodlz.github.io/portfolio/curriculo-pablo-galerani.pdf"><img src="https://img.shields.io/badge/%E2%AC%87%20Baixar%20Curr%C3%ADculo-0090B8?style=for-the-badge&labelColor=00B2DF" alt="Baixar currículo" /></a>
-<br/>
 <br/>
 </td>
 </tr>
@@ -32,6 +30,7 @@
 <br/>
 
 [![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-0D1117?style=flat-square&logo=firefoxbrowser&logoColor=00B2DF)](https://pablodlz.github.io/portfolio/)
+[![Currículo](https://img.shields.io/badge/Curr%C3%ADculo-0D1117?style=flat-square&logo=googledocs&logoColor=00B2DF)](https://pablodlz.github.io/portfolio/curriculo-pablo-galerani.pdf)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwQjJERiI%2BPHBhdGggZD0iTTkgM2g2YTIgMiAwIDAgMSAyIDJ2MmgzYTIgMiAwIDAgMSAyIDJ2OWEyIDIgMCAwIDEtMiAySDRhMiAyIDAgMCAxLTItMlY5YTIgMiAwIDAgMSAyLTJoM1Y1YTIgMiAwIDAgMSAyLTJ6bTAgNGg2VjVIOXYyeiIvPjwvc3ZnPg==)](https://www.linkedin.com/in/pablodlz/)
 [![HackerOne](https://img.shields.io/badge/HackerOne-0D1117?style=flat-square&logo=hackerone&logoColor=00B2DF)](https://hackerone.com/pablodlz)
 [![Bugcrowd](https://img.shields.io/badge/Bugcrowd-0D1117?style=flat-square&logo=bugcrowd&logoColor=00B2DF)](https://bugcrowd.com/h/pablodlz)
