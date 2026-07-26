@@ -77,8 +77,10 @@ flowchart LR
   R --> R1["pentest · CTFs · labs"]
   A --> A1["SSDLC · SAST/DAST · threat modeling"]
   M --> M1["ML × ransomware"]
+  M --> M2["pentest automatizado com IA"]
   R -. "entender o ataque" .-> B
   B -. "defender melhor" .-> R
+  M2 -. "automatiza a caça" .-> R
 ```
 
 <br/>
@@ -134,10 +136,11 @@ Undersampling applied to Ransomware Detection: An Analysis of NearMiss and Rando
 
 |                                                        |                                                                                                                                                                               |
 | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**writeups**](https://github.com/pablodlz/writeups) | Field notes de bug bounty. Inclui o report **aceito e pago** (Medium 5.3) que eu havia submetido como Critical 9.1 — e por que a Kong estava certa. Metodologia acima de troféus: entradas que terminam em _"falso positivo"_ ficam de propósito. |
-| [**arsenal**](https://github.com/pablodlz/arsenal) | Templates nuclei, wordlists com proveniência, extensão Burp (Montoya) e plugin Caido — todos nascidos de investigação real. Detecção de _phantom success_ em resolver GraphQL. |
-| [**labs**](https://github.com/pablodlz/labs) | Labs deliberadamente vulneráveis, um defeito por lab, com a correção atrás de uma flag. O primeiro: um resolver GraphQL que **aplica ownership corretamente e mente sobre isso**. Sem dependências. |
-| [**subdomain-takeover-poc**](https://github.com/pablodlz/subdomain-takeover-poc) | Página de PoC auto-comprovante pra registro DNS pendurado: lê hostname, path e os próprios headers de resposta em runtime, e gera o report pronto. Agnóstica de plataforma. |
+| [**writeups**](https://github.com/pablodlz/writeups) | Field notes de bug bounty e pesquisa. Metodologia acima de troféus — entradas que terminam em _"falso positivo"_ ficam de propósito. Alvos sempre omitidos. |
+| [**arsenal**](https://github.com/pablodlz/arsenal) | Detecção e ferramental próprios: templates nuclei, wordlists com proveniência, extensão Burp e plugin Caido. |
+| [**pocs**](https://github.com/pablodlz/pocs) | Artefatos de prova de conceito reaproveitáveis, um por classe de bug. |
+| [**labs**](https://github.com/pablodlz/labs) | Código deliberadamente vulnerável reproduzindo achados reais — um defeito por lab, com a correção atrás de uma flag. |
+| [**advisories**](https://github.com/pablodlz/advisories) | Divulgações coordenadas em software open source. |
 | [**dotfiles**](https://github.com/pablodlz/dotfiles) | Provisiona uma máquina de caça do zero, idempotente. Um script, sem framework. |
 | [**portfolio**](https://github.com/pablodlz/portfolio) | Site interativo com terminal Kali funcional (~90 comandos), pet cyber **b1t** e CSP estrita — Astro · TypeScript. **[Demo ao vivo ↗](https://pablodlz.github.io/portfolio/)** |
 | [**pablodlz**](https://github.com/pablodlz/pablodlz)   | Este perfil — escrito _spec-driven_ ([spec](specs/profile-readme.md)) e mantido vivo por GitHub Actions.                                                                      |
@@ -157,3 +160,5 @@ Undersampling applied to Ransomware Detection: An Analysis of NearMiss and Rando
 <img width="100%" src="https://raw.githubusercontent.com/pablodlz/pablodlz/output/github-contribution-grid-snake.svg" alt="Cobrinha de contribuições" />
 
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00B2DF&height=120&section=footer" alt="" />
