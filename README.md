@@ -134,9 +134,13 @@ Undersampling applied to Ransomware Detection: An Analysis of NearMiss and Rando
 
 |                                                        |                                                                                                                                                                               |
 | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**writeups**](https://github.com/pablodlz/writeups) | Field notes de bug bounty. Inclui o report **aceito e pago** (Medium 5.3) que eu havia submetido como Critical 9.1 — e por que a Kong estava certa. Metodologia acima de troféus: entradas que terminam em _"falso positivo"_ ficam de propósito. |
+| [**arsenal**](https://github.com/pablodlz/arsenal) | Templates nuclei, wordlists com proveniência, extensão Burp (Montoya) e plugin Caido — todos nascidos de investigação real. Detecção de _phantom success_ em resolver GraphQL. |
+| [**graphql-authz-lab**](https://github.com/pablodlz/graphql-authz-lab) | Lab: um resolver que **aplica ownership corretamente e mente sobre isso**. `python app.py`, sem dependências. `--fixed` mostra a correção de uma linha. |
+| [**subdomain-takeover-poc**](https://github.com/pablodlz/subdomain-takeover-poc) | Página de PoC auto-comprovante pra registro DNS pendurado: lê hostname, path e os próprios headers de resposta em runtime, e gera o report pronto. Agnóstica de plataforma. |
+| [**pentest-env**](https://github.com/pablodlz/pentest-env) | Provisiona uma máquina de caça do zero, idempotente. Um script, sem framework. |
 | [**portfolio**](https://github.com/pablodlz/portfolio) | Site interativo com terminal Kali funcional (~90 comandos), pet cyber **b1t** e CSP estrita — Astro · TypeScript. **[Demo ao vivo ↗](https://pablodlz.github.io/portfolio/)** |
 | [**pablodlz**](https://github.com/pablodlz/pablodlz)   | Este perfil — escrito _spec-driven_ ([spec](specs/profile-readme.md)) e mantido vivo por GitHub Actions.                                                                      |
-| [**AppSec**](https://www.linkedin.com/in/pablodlz/)    | Application Security - Como implementar o Ciclo de Vida de Desenvolvimento de Software Seguro (SSDLC) do zero                                                                 |
 
 <br/>
 
@@ -151,7 +155,5 @@ Undersampling applied to Ransomware Detection: An Analysis of NearMiss and Rando
 ### Contribuições
 
 <img width="100%" src="https://raw.githubusercontent.com/pablodlz/pablodlz/output/github-contribution-grid-snake.svg" alt="Cobrinha de contribuições" />
-
-<img width=100% src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
 </div>
