@@ -67,7 +67,7 @@ pablodlz — SOC Analyst @ Clavis Segurança da Informação
 ### Roadmap
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#00B2DF','primaryBorderColor':'#00B2DF','lineColor':'#00B2DF','secondaryColor':'#0d1117','tertiaryColor':'#0d1117','fontFamily':'monospace'}}}%%
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#00B2DF','primaryBorderColor':'#00B2DF','lineColor':'#00B2DF','secondaryColor':'#0d1117','tertiaryColor':'#0d1117','fontFamily':'monospace'},'flowchart':{'curve':'linear'}}}%%
 flowchart LR
   P(("pablodlz")) --> B["🛡️ Blue Team / SOC"]
   P --> R["🗡️ Offensive"]
