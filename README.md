@@ -174,8 +174,9 @@ flowchart LR
 ![Linux](https://img.shields.io/badge/Linux-0D1117?style=flat-square&logo=linux&logoColor=00B2DF)
 ![Redes](https://img.shields.io/badge/Redes-0D1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwQjJERiI+PHBhdGggZD0iTTExIDJoMnY0aC0yVjJaTTQgOWg2djJIOHYzSDZ2LTNINFY5Wm0xMCAwaDZ2MmgtMnYzaC0ydi0zaC0yVjlabS0zLTNoMnYzaC0yVjZaTTIgMTZoNXY1SDJ2LTVabTcuNSAwaDV2NWgtNXYtNVpNMTcgMTZoNXY1aC01di01WiIvPjwvc3ZnPg==&logoColor=00B2DF)
 ![Hardware](https://img.shields.io/badge/Hardware-0D1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwQjJERiI+PHBhdGggZD0iTTkgMWgydjJoMlYxaDJ2MmgxYTMgMyAwIDAgMSAzIDN2MWgydjJoLTJ2MmgydjJoLTJ2MmgydjJoLTJ2MWEzIDMgMCAwIDEtMyAzaC0xdjJoLTJ2LTJoLTJ2Mkg5di0ySDhhMyAzIDAgMCAxLTMtM3YtMUgzdi0yaDJ2LTJIM3YtMmgyVjlIM1Y3aDJWNmEzIDMgMCAwIDEgMy0zaDFWMVpNOCA1YTEgMSAwIDAgMC0xIDF2MTJhMSAxIDAgMCAwIDEgMWg4YTEgMSAwIDAgMCAxLTFWNmExIDEgMCAwIDAtMS0xSDhabTEgM2g2djhIOVY4WiIvPjwvc3ZnPg==&logoColor=00B2DF)
+
 <sub>**Pesquisa:**</sub><br/>
-Undersampling applied to Ransomware Detection: An Analysis of NearMiss and Random Undersampling Techniques — artigo científico em publicação.</sub>
+Undersampling applied to Ransomware Detection: An Analysis of NearMiss and Random Undersampling Techniques — artigo científico em publicação.
 
 <br/>
 
