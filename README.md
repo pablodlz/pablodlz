@@ -67,20 +67,48 @@ pablodlz — SOC Analyst @ Clavis Segurança da Informação
 ### Roadmap
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0d1117','primaryTextColor':'#00B2DF','primaryBorderColor':'#00B2DF','lineColor':'#00B2DF','secondaryColor':'#0d1117','tertiaryColor':'#0d1117','fontFamily':'monospace'},'flowchart':{'curve':'linear'}}}%%
+%%{init: {
+  'theme':'base',
+  'themeVariables': {
+    'fontFamily':'ui-monospace, SFMono-Regular, Menlo, monospace',
+    'fontSize':'14px',
+    'primaryColor':'#0d1117',
+    'primaryTextColor':'#e6edf3',
+    'primaryBorderColor':'#00B2DF',
+    'lineColor':'#2f6f7f',
+    'tertiaryColor':'#0d1117'
+  },
+  'flowchart': {'curve':'linear','nodeSpacing':36,'rankSpacing':78,'padding':12}
+}}%%
 flowchart LR
-  P(("pablodlz")) --> B["🛡️ Blue Team / SOC"]
+  P(("pablodlz"))
+
+  P --> B["🛡️ Blue Team / SOC"]
   P --> R["🗡️ Offensive"]
   P --> A["🧪 AppSec / DevSecOps"]
   P --> M["🤖 Research"]
-  B --> B1["SIEM · triagem · resposta a incidentes"]
-  R --> R1["pentest · CTFs · labs"]
-  A --> A1["SSDLC · SAST/DAST · threat modeling"]
-  M --> M1["ML × ransomware"]
-  M --> M2["pentest automatizado com IA"]
+
+  B --> B1(["SIEM · triagem · resposta a incidentes"])
+  R --> R1(["pentest · CTFs · labs"])
+  A --> A1(["SSDLC · SAST/DAST · threat modeling"])
+  M --> M1(["ML × ransomware"])
+  M --> M2(["pentest automatizado com IA"])
+
   R -. "entender o ataque" .-> B
   B -. "defender melhor" .-> R
   M2 -. "automatiza a caça" .-> R
+
+  classDef core   fill:#00B2DF,stroke:#7fdcf5,stroke-width:2px,color:#04141a
+  classDef pillar fill:#0d1117,stroke:#00B2DF,stroke-width:1.6px,color:#e6edf3
+  classDef leaf   fill:#111a20,stroke:#1f4e5c,stroke-width:1px,color:#a9c7d1
+
+  class P core
+  class B,R,A,M pillar
+  class B1,R1,A1,M1,M2 leaf
+
+  linkStyle 0,1,2,3 stroke:#00B2DF,stroke-width:1.6px
+  linkStyle 4,5,6,7,8 stroke:#1f4e5c,stroke-width:1.2px
+  linkStyle 9,10,11 stroke:#4a7c8c,stroke-width:1.1px
 ```
 
 <br/>
@@ -102,6 +130,7 @@ flowchart LR
 ![Nmap](https://img.shields.io/badge/Nmap-0D1117?style=flat-square&logo=speedtest&logoColor=00B2DF)
 ![Hack The Box](https://img.shields.io/badge/Hack_The_Box-0D1117?style=flat-square&logo=hackthebox&logoColor=00B2DF)
 ![TryHackMe](https://img.shields.io/badge/TryHackMe-0D1117?style=flat-square&logo=tryhackme&logoColor=00B2DF)
+![GraphQL](https://img.shields.io/badge/GraphQL-0D1117?style=flat-square&logo=graphql&logoColor=00B2DF)
 
 <sub>**AppSec / DevSecOps**</sub><br/>
 ![OWASP](https://img.shields.io/badge/OWASP-0D1117?style=flat-square&logo=owasp&logoColor=00B2DF)
@@ -111,11 +140,21 @@ flowchart LR
 ![Jenkins](https://img.shields.io/badge/Jenkins-0D1117?style=flat-square&logo=jenkins&logoColor=00B2DF)
 ![Docker](https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=00B2DF)
 
+<sub>**IA & Automação**</sub><br/>
+![Claude](https://img.shields.io/badge/Claude-0D1117?style=flat-square&logo=claude&logoColor=00B2DF)
+![MCP](https://img.shields.io/badge/MCP-0D1117?style=flat-square&logo=modelcontextprotocol&logoColor=00B2DF)
+![Gemini](https://img.shields.io/badge/Gemini-0D1117?style=flat-square&logo=googlegemini&logoColor=00B2DF)
+![Pydantic](https://img.shields.io/badge/Pydantic-0D1117?style=flat-square&logo=pydantic&logoColor=00B2DF)
+![NumPy](https://img.shields.io/badge/NumPy-0D1117?style=flat-square&logo=numpy&logoColor=00B2DF)
+
 <sub>**Linguagens & Ambiente**</sub><br/>
 ![Python](https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=00B2DF)
 ![Bash](https://img.shields.io/badge/Bash-0D1117?style=flat-square&logo=gnubash&logoColor=00B2DF)
 ![Linux](https://img.shields.io/badge/Linux-0D1117?style=flat-square&logo=linux&logoColor=00B2DF)
 ![Git](https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=00B2DF)
+![pytest](https://img.shields.io/badge/pytest-0D1117?style=flat-square&logo=pytest&logoColor=00B2DF)
+![Ruff](https://img.shields.io/badge/Ruff-0D1117?style=flat-square&logo=ruff&logoColor=00B2DF)
+![Node.js](https://img.shields.io/badge/Node.js-0D1117?style=flat-square&logo=nodedotjs&logoColor=00B2DF)
 
 <sub>**Pesquisa:**</sub><br/>
 Undersampling applied to Ransomware Detection: An Analysis of NearMiss and Random Undersampling Techniques — artigo científico em publicação.</sub>
@@ -136,7 +175,7 @@ Undersampling applied to Ransomware Detection: An Analysis of NearMiss and Rando
 
 |                                                        |                                                                                                                                                                               |
 | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**Omni-Pentest**](https://github.com/pablodlz/Omni-Pentest) 🔒 | **Privado.** Plataforma própria de bug bounty orquestrado por IA, rodando em VPS. Máquina de fases (recon → discovery → exploit → validação → report), firewall de validação determinístico com 10 gates e _default = descartar_, escopo **fail-closed fora do modelo** (o agente propõe, o código autoriza), severidade **derivada de evidência** e nunca declarada, e submissão sempre sob aprovação humana. É de onde saem os templates do `arsenal` e a metodologia dos `writeups`. |
+| [**omni-pentest**](https://github.com/pablodlz/omni-pentest) 🔒 | **Privado.** Plataforma própria de bug bounty orquestrado por IA, rodando em VPS. Máquina de fases (recon → discovery → exploit → validação → report), firewall de validação determinístico com 10 gates e _default = descartar_, escopo **fail-closed fora do modelo** (o agente propõe, o código autoriza), severidade **derivada de evidência** e nunca declarada, e submissão sempre sob aprovação humana. É de onde saem os templates do `arsenal` e a metodologia dos `writeups`. |
 | [**writeups**](https://github.com/pablodlz/writeups) | Field notes de bug bounty e pesquisa. Metodologia acima de troféus — entradas que terminam em _"falso positivo"_ ficam de propósito. Alvos sempre omitidos. |
 | [**arsenal**](https://github.com/pablodlz/arsenal) | Detecção e ferramental próprios: templates nuclei, wordlists com proveniência, extensão Burp e plugin Caido. |
 | [**pocs**](https://github.com/pablodlz/pocs) | Artefatos de prova de conceito reaproveitáveis, um por classe de bug. |
