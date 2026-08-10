@@ -200,6 +200,9 @@ Undersampling applied to Ransomware Detection: An Analysis of NearMiss and Rando
 | [**pocs**](https://github.com/pablodlz/pocs) | Artefatos de prova de conceito reaproveitáveis, um por classe de bug. |
 | [**labs**](https://github.com/pablodlz/labs) | Código deliberadamente vulnerável reproduzindo achados reais — um defeito por lab, com a correção atrás de uma flag. |
 | [**advisories**](https://github.com/pablodlz/advisories) | Divulgações coordenadas em software open source. |
+| [**applied-security**](https://github.com/pablodlz/applied-security) | Trabalhos práticos ofensivos e de AppSec/DevSecOps: pentest de rede interna (capstone da pós), pentest web full-chain e desafios de DevSecOps sobre o Juice Shop. |
+| [**research**](https://github.com/pablodlz/research) | Pesquisa acadêmica — ML aplicado à cibersegurança. Começa com o estudo de _undersampling_ na detecção de ransomware (TCC). |
+| [**ats-resume-latex-template**](https://github.com/pablodlz/ats-resume-latex-template) | Template de currículo em LaTeX amigável a ATS: coluna única, texto selecionável, genérico e reutilizável. |
 | [**dotfiles**](https://github.com/pablodlz/dotfiles) | Provisiona uma máquina de caça do zero, idempotente. Um script, sem framework. |
 | [**portfolio**](https://github.com/pablodlz/portfolio) | Site interativo com terminal Kali funcional (~90 comandos), pet cyber **b1t** e CSP estrita — Astro · TypeScript. **[Demo ao vivo ↗](https://pablodlz.github.io/portfolio/)** |
 | [**pablodlz**](https://github.com/pablodlz/pablodlz)   | Este perfil — escrito _spec-driven_ ([spec](specs/profile-readme.md)) e mantido vivo por GitHub Actions.                                                                      |

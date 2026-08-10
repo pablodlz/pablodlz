@@ -1,1 +1,4 @@
 __pycache__/
+
+# Local publication drafts (LinkedIn / Medium) — kept local, not versioned
+social/
